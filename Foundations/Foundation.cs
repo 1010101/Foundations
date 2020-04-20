@@ -1,10 +1,6 @@
 ﻿//Originally written by forum user Sparkle: https://forum.kerbalspaceprogram.com/index.php?/profile/91081-sparkle/
 //Link to the original thread: https://forum.kerbalspaceprogram.com/index.php?/topic/51430-plugin-022-wip-foundations-update-alpha-release-02/&tab=comments#comment-739075
 
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
 using UnityEngine;
 
 namespace Foundations
@@ -30,154 +26,165 @@ namespace Foundations
         private GameObject fixedObject;
 
 
-        [KSPEvent(guiActive = true, guiName = "Attach Foundations")]
-        public void AttachEvent()
+        [KSPEvent(active = true, guiActive = true, guiName = "Attach Foundations")]
+        public void EventAttach()
         {
-            Debug.Log("Foundations: AttachEvent()");
-            //Events["AttachEvent"].guiName = "Attach Foundations";
-            if (!part.GroundContact)
+                        
+            if (part.GroundContact)
             {
-                Debug.Log("Foundations: No ground contact, aborting.");
-
-                Message("Foundations not touching the ground.");
+                Debug.Log("Foundations: AttachEvent()");
+                
+                Attach();
             }
             else
             {
-                Attach();
+                Debug.Log("Foundations: No ground contact, aborting.");
+                Message("Foundations not touching the ground.");
             }
         }
 
-
         [KSPEvent(active = false, guiActive = true, guiName = "Detach Foundations")]
-        public void DetachEvent()
+        public void EventDetach()
         {
             Debug.Log("Foundations: DetachEvent()");
-
+            
             Detach();
+        }
+
+        [KSPAction("Toggle Foundation")]
+        public void ToggleAttachment(KSPActionParam param)
+        {
+            if (isAttached)
+            {
+                EventDetach();                
+            }
+            else
+            {
+                EventAttach();
+            }
+        }
+
+        public void SwitchEventState()
+        {
+            if (Events["EventAttach"].active)
+            {
+                Events["EventAttach"].active = false;
+                Events["EventDetach"].active = true;
+            }
+            else
+            {
+                Events["EventAttach"].active = true;
+                Events["EventDetach"].active = false;
+            }
         }
 
         private void Attach()
         {
             Debug.Log("Foundations: Attach()");
-
-            Events["AttachEvent"].active = false;
-            Events["DetachEvent"].active = true;            
-            attachOffset = Vector3.zero;            
-            attachRotation = transform.rotation;
+             
             isAttached = true;
-            Debug.Log("Foundation: rotation:");
-            Debug.Log(Convert.ToString(attachRotation));            
+            SwitchEventState();            
             CreateAttachment();
         }
 
         private void Detach()
         {
             Debug.Log("Foundations: Detach()");
-
-            Events["AttachEvent"].active = true;
-            Events["DetachEvent"].active = false;
+            
             attachOffset = Vector3.zero;
             attachRotation = Quaternion.identity;
             isAttached = false;
-
+            SwitchEventState();
             DestroyAttachment();
         }
 
         public void OnPartUnpack()
         {
+            #if DEBUG
             Debug.Log(string.Format("Foundations: OnPartUnpack(isAttached = {0})", isAttached));
-
-            if (!isAttached)
+            #endif
+            if (isAttached)
             {
-                return;
+                DestroyAttachment();
+                CreateAttachment();
+                SwitchEventState();
             }
-
-            DestroyAttachment();
-            CreateAttachment();
         }
-
+        
+        //Clean up the PAW if the part doesn't touch the ground
         public override void OnUpdate()
         {
-            if (!isAttached)
+           if (!part.GroundContact)
             {
-                return;
+                Events["EventAttach"].guiActive = false;
+                Events["EventDetach"].guiActive = false;
             }
-
-            //attachOffset = Vector3.op_Subtraction(this.fixedObject.get_transform().get_position(), ((Component)this.get_part()).get_transform().get_position());
-            Vector3 attachOffset = (fixedObject.transform.position - part.transform.position);
+            else
+            {
+                Events["EventAttach"].guiActive = true;
+                Events["EventDetach"].guiActive = true;
+            }
         }
-
+ 
         public void OnJointBreak(float force)
         {
             Debug.LogWarning(string.Format("Foundations: OnJointBreak(force = {0}, isAttached = {1})", force, isAttached));
-
             Detach();
         }
 
         private void CreateAttachment()
         {
-            Debug.Log("Foundations: CreateAttachment()");
-            
-            Vector3 position = (part.transform.position + attachOffset);
+            Debug.Log("Foundations: CreateAttachment");
 
-            Debug.Log("Foundations: Creating object.");
+            Debug.Log("Foundations: Creating object");
+            CreateFixedObject();
+            
+            Debug.Log("Foundations: Creating joint");
+            CreateFixedJoint();
+        }
+
+        private void CreateFixedObject()
+        {
+            attachOffset = Vector3.zero;
+            attachRotation = transform.rotation;
+            Vector3 position = (part.transform.position + attachOffset);
 
             fixedObject = new GameObject("FoundationsBody");
             fixedObject.AddComponent<Rigidbody>();
             fixedObject.GetComponent<Rigidbody>().isKinematic = true;
             fixedObject.transform.position = position;
             fixedObject.transform.rotation = attachRotation;
+        }
 
-            Debug.Log("Foundations: Creating joint.");
-            fixedJoint = part.gameObject.AddComponent<FixedJoint>();
-                        
+        private void CreateFixedJoint()
+        {
+            fixedJoint = part.gameObject.AddComponent<FixedJoint>();            
+            fixedJoint.connectedBody = fixedObject.GetComponent<Rigidbody>();
             fixedJoint.breakForce = breakForce;
             fixedJoint.breakTorque = breakTorque;
-
-            //fixedJoint.connectedBody(this.fixedObject.get_rigidbody());
-            fixedJoint.connectedBody = fixedObject.GetComponent<Rigidbody>();
         }
 
         private void DestroyAttachment()
         {
-            Debug.Log("Foundations: DestroyAttachment()");
-
-            //if (Object.op_Inequality((Object)this.fixedJoint, (Object)null))
+            Debug.Log("Foundations: DestroyAttachment()");                        
             if (fixedJoint != null)
             {
-                Debug.Log((object)"Foundations: Destroying joint.");
-
+                Debug.Log("Foundations: Destroying joint.");
                 Destroy(fixedJoint);
-
                 fixedJoint = null;
             }
-            //else
-            //{
-            //    return;
-            //}
-                        
+                                    
             if (fixedObject != null)
             {
                 Debug.Log("Foundations: Destroying object.");
-
                 Destroy(fixedObject);
                 fixedObject = null;                
-            }
-            else
-            {
-                return;
-            }
-                       
+            }                                 
         }
 
         private void Message(string format, params object[] args)
         {
-            ScreenMessages.PostScreenMessage(string.Format(format, args), 3f, (ScreenMessageStyle)0);
-        }
-
-        public Foundation()
-        {
-            
+            ScreenMessages.PostScreenMessage(string.Format(format, args), 3f, 0);
         }
     }
 }
