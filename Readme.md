@@ -11,7 +11,7 @@ updated: 2020 04 10 -->
 
 Originally written by Sparkle. Link to the original mod thread: https://forum.kerbalspaceprogram.com/index.php?/topic/51430-plugin-022-wip-foundations-update-alpha-release-02/&tab=comments#comment-739075
 
-The plugin allows to establish a connection between parts and the ground. Prevents ground constructions to float away :) 
+An addon for Kerbal Space Program which allows establishing a connection between parts and the ground. Prevents ground constructions from float/sliding away :)
 
 
 
@@ -34,7 +34,7 @@ The plugin allows to establish a connection between parts and the ground. Preven
 ### Dependencies
 - [x] [Kerbal Space Program][KSP:website] [![][shield:ksp]][KSP:website] ***may*** work on other versions ]/YMMV/
 - [x] [Module Manager][thread:mm]  
-### Recomends  
+### Recommends  
 - [x] [Kerbal Changelog][thread:kcl]  
 ### Suggests
 - [x] [On Demand Fuel Cells {ODFC)}][thread:ODFC]  
