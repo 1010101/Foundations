@@ -1,4 +1,6 @@
-﻿# Prerequisites
+﻿# .gitignore v2.0.0.0
+
+# Prerequisites
 *.d
 
 # Compiled Object files
@@ -68,7 +70,7 @@ _deploy.bat
 _deploySub.bat
 mod.version
 regex4loc.txt
-.*
+_*
 
 # database files
 *.mdb
@@ -172,3 +174,5 @@ crashlytics-build.properties
 # Temporary auto-generated Android Assets
 /[Aa]ssets/[Ss]treamingAssets/aa.meta
 /[Aa]ssets/[Ss]treamingAssets/aa/*
+graphics/Thumbs.db
+*.old
