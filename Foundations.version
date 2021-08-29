@@ -1,12 +1,12 @@
 {
-    "NAME"           : "Foundation",
-    "URL"            : "https://raw.githubusercontent.com/zer0Kerbal/Foundation/master/Foundation.version",
-    "DOWNLOAD"       : "https://github.com/zer0Kerbal/Foundation/releases/latest",
-    "CHANGE_LOG_URL" : "https://raw.githubusercontent.com/zer0Kerbal/Foundation/master/Changelog.cfg",
+    "NAME"           : "Foundations (FND)",
+    "URL"            : "https://raw.githubusercontent.com/zer0Kerbal/Foundations/master/Foundation.version",
+    "DOWNLOAD"       : "https://github.com/zer0Kerbal/Foundations/releases/latest",
+    "CHANGE_LOG_URL" : "https://raw.githubusercontent.com/zer0Kerbal/Foundations/master/Changelog.cfg",
     "GITHUB" :
     {
         "USERNAME"          : "zer0Kerbal",
-        "REPOSITORY"        : "Foundation",
+        "REPOSITORY"        : "Foundations",
         "ALLOW_PRE_RELEASE" : false
     },
     "VERSION" :
@@ -31,12 +31,12 @@
     "KSP_VERSION_MAX" :
     {
         "MAJOR" : 1,
-        "MINOR" : 7,
+        "MINOR" : 12,
         "PATCH" : 9999
     },
     "INSTALL_LOC" :
     {
-        "NAME" :          "Foundation",
-        "DIRECTORY" :     "Foundation"
+        "NAME" :          "Foundations",
+        "DIRECTORY" :     "KGEx/Foundations"
     }
 }

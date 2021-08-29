@@ -6,6 +6,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;*/
 using UnityEngine;
+using KSP.Localization;
 
 namespace Foundations
 {
@@ -37,12 +38,12 @@ namespace Foundations
             //Events["EventAttach"].guiName = "Attach Foundations";
             if (part.GroundContact)
             {
-                    Debug.Log("[Foundations v" + Version.Text + "]: AttachEvent()");
+                Debug.Log(string.Format("[Foundations v{0}]: AttachEvent().", Version.Text));
                 Attach();
             }
             else
             {
-                    Debug.Log("[Foundations v" + Version.Text + "]: No ground contact, aborting.");
+                Debug.Log(string.Format("[Foundations v{0}]: No ground contact, aborting.", Version.Text));
                 Message("Foundations not touching the ground.");
             }
         }
@@ -50,9 +51,9 @@ namespace Foundations
         [KSPEvent(active = false, guiActive = true, guiName = "Detach Foundations")]
         public void EventDetach()
         {
-            Debug.Log("[Foundations v" + Version.Text + "]: EventDetach()");
-            Detach();
+            Debug.Log(string.Format("[Foundations v{0}]: EventDetach().", Version.Text));
         }
+
         [KSPAction("Toggle Foundation")]
         public void ToggleAttachment(KSPActionParam param)
         {
@@ -80,44 +81,17 @@ namespace Foundations
             }
         }
 
-        [KSPAction("Toggle Foundation")]
-        public void ToggleAttachment(KSPActionParam param)
-        {
-            if (isAttached)
-            {
-                EventDetach();                
-            }
-            else
-            {
-                EventAttach();
-            }
-        }
-
-        public void SwitchEventState()
-        {
-            if (Events["EventAttach"].active)
-            {
-                Events["EventAttach"].active = false;
-                Events["EventDetach"].active = true;
-            }
-            else
-            {
-                Events["EventAttach"].active = true;
-                Events["EventDetach"].active = false;
-            }
-        }
-
         private void Attach()
         {
             Debug.Log("Foundations: Attach()");
 
-/*            Events["EventAttach"].active = false;
-            Events["EventDetach"].active = true;            
-            attachOffset = Vector3.zero;            
-            attachRotation = transform.rotation;*/
+            /*            Events["EventAttach"].active = false;
+                        Events["EventDetach"].active = true;            
+                        attachOffset = Vector3.zero;            
+                        attachRotation = transform.rotation;*/
             isAttached = true;
-/*            Debug.Log("Foundation: rotation:");
-            Debug.Log(Convert.ToString(attachRotation));*/
+            /*            Debug.Log("Foundation: rotation:");
+                        Debug.Log(Convert.ToString(attachRotation));*/
             SwitchEventState();
             CreateAttachment();
         }
@@ -126,11 +100,11 @@ namespace Foundations
         {
             Debug.Log("Foundations: Detach()");
 
-/*            Events["EventAttach"].active = true;
-            Events["EventDetach"].active = false;
-            
-            attachOffset = Vector3.zero;
-            attachRotation = Quaternion.identity;*/
+            /*            Events["EventAttach"].active = true;
+                        Events["EventDetach"].active = false;
+
+                        attachOffset = Vector3.zero;
+                        attachRotation = Quaternion.identity;*/
             isAttached = false;
             SwitchEventState();
             DestroyAttachment();
@@ -138,9 +112,9 @@ namespace Foundations
 
         public void OnPartUnpack()
         {
-            #if DEBUG
+#if DEBUG
             Debug.Log(string.Format("Foundations: OnPartUnpack(isAttached = {0})", isAttached));
-            #endif
+#endif
             if (isAttached)
             {
                 DestroyAttachment();
@@ -148,7 +122,7 @@ namespace Foundations
                 SwitchEventState();
             }
         }
-        
+
         //Clean up the PAW if the part doesn't touch the ground
         public override void OnUpdate()
         //Clean up the PAW if the part doesn't touch the ground
@@ -167,10 +141,10 @@ namespace Foundations
             //attachOffset = Vector3.op_Subtraction(this.fixedObject.get_transform().get_position(), ((Component)this.get_part()).get_transform().get_position());
             //Vector3 attachOffset = (fixedObject.transform.position - part.transform.position);
         }
- 
+
         public void OnJointBreak(float force)
         {
-                Debug.LogWarning(String.Format("Foundations: OnJointBreak(force = {0}, isAttached = {1})", force, isAttached));
+            Debug.LogWarning(string.Format("Foundations: OnJointBreak(force = {0}, isAttached = {1})", force, isAttached));
             Detach();
         }
 
@@ -180,7 +154,7 @@ namespace Foundations
 
             Debug.Log("Foundations: Creating object");
             CreateFixedObject();
-            
+
             Debug.Log("Foundations: Creating joint");
             CreateFixedJoint();
         }
@@ -200,7 +174,7 @@ namespace Foundations
 
         private void CreateFixedJoint()
         {
-            fixedJoint = part.gameObject.AddComponent<FixedJoint>();            
+            fixedJoint = part.gameObject.AddComponent<FixedJoint>();
             fixedJoint.connectedBody = fixedObject.GetComponent<Rigidbody>();
             fixedJoint.breakForce = breakForce;
             fixedJoint.breakTorque = breakTorque;
@@ -208,20 +182,20 @@ namespace Foundations
 
         private void DestroyAttachment()
         {
-            Debug.Log("Foundations: DestroyAttachment()");                        
+            Debug.Log("Foundations: DestroyAttachment()");
             if (fixedJoint != null)
             {
                 Debug.Log("Foundations: Destroying joint.");
                 Destroy(fixedJoint);
                 fixedJoint = null;
             }
-                                    
+
             if (fixedObject != null)
             {
                 Debug.Log("Foundations: Destroying object.");
                 Destroy(fixedObject);
-                fixedObject = null;                
-            }                                 
+                fixedObject = null;
+            }
         }
 
         private void Message(string format, params object[] args)
@@ -230,5 +204,5 @@ namespace Foundations
         }
     }
 }
- 
+
 
