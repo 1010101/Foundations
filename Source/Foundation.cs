@@ -12,6 +12,8 @@ namespace Foundations
 {
     class Foundation : PartModule
     {
+        // Localizer.Format("#Foundations_WindowTitle", Version.Text), //"Logistics Network v "
+
         [KSPField(isPersistant = true)]
         public float breakForce = 500f;
 
@@ -31,30 +33,36 @@ namespace Foundations
         private GameObject fixedObject;
 
 
-        [KSPEvent(active = true, guiActive = true, guiName = "Attach Foundations")]
+        [KSPEvent(active = true, guiActive = true, guiName = "#Foundations-Attach")]
         public void EventAttach()
         {
-            Debug.Log("Foundations: EventAttach()");
+            Debug.Log(string.Format("[Foundations v{0}]: EventAttach()", Version.Text));
             //Events["EventAttach"].guiName = "Attach Foundations";
             if (part.GroundContact)
             {
+#if DEBUG
                 Debug.Log(string.Format("[Foundations v{0}]: AttachEvent().", Version.Text));
+#endif
                 Attach();
             }
             else
             {
-                Debug.Log(string.Format("[Foundations v{0}]: No ground contact, aborting.", Version.Text));
-                Message("Foundations not touching the ground.");
+#if DEBUG
+                Debug.Log(string.Format("[Foundations v{0}]: {1} has no ground contact, aborting.", Version.Text, part.name));
+#endif
+                // Message("Foundations not touching the ground.");
+                Message(Localizer.Format("#Foundations-NotTouching", part.name)); // Foundation <<1>> not touching the ground.
             }
         }
 
-        [KSPEvent(active = false, guiActive = true, guiName = "Detach Foundations")]
+        [KSPEvent(active = false, guiActive = true, guiName = "#Foundations-Detach")]
         public void EventDetach()
         {
             Debug.Log(string.Format("[Foundations v{0}]: EventDetach().", Version.Text));
+            //Message(Localizer.Format("#Foundations-PartDetach", part.name)); // <<1>> Foundation removed.
         }
 
-        [KSPAction("Toggle Foundation")]
+        [KSPAction("#Foundations-Toggle")]
         public void ToggleAttachment(KSPActionParam param)
         {
             if (isAttached)
@@ -83,31 +91,47 @@ namespace Foundations
 
         private void Attach()
         {
-            Debug.Log("Foundations: Attach()");
+#if DEBUG
+            Debug.Log(string.Format("[Foundations v{0}]: Attach().", Version.Text)); // "Foundations: Attach()");
 
-            /*            Events["EventAttach"].active = false;
-                        Events["EventDetach"].active = true;            
-                        attachOffset = Vector3.zero;            
-                        attachRotation = transform.rotation;*/
-            isAttached = true;
-            /*            Debug.Log("Foundation: rotation:");
-                        Debug.Log(Convert.ToString(attachRotation));*/
+            Debug.Log(string.Format("[Foundations v{0}]: breakForce {1:0.0000}.", Version.Text, breakForce));
+            Debug.Log(string.Format("[Foundations v{0}]: breakTorque {1:0.0000}.", Version.Text, breakTorque));
+            Debug.Log(string.Format("[Foundations v{0}]: attachOffset {1:0.0000}.", Version.Text, attachOffset));
+            Debug.Log(string.Format("[Foundations v{0}]: attachRotation {1:0.0000}.", Version.Text, attachRotation));
+#endif
+
+            attachOffset = Vector3.zero;
+            attachRotation = transform.rotation;
+
             SwitchEventState();
+
+            isAttached = true;
+
             CreateAttachment();
+            Message(Localizer.Format("#Foundations-PartAttach", part.name)); // <<1>> Foundation created.
         }
 
         private void Detach()
         {
-            Debug.Log("Foundations: Detach()");
+#if DEBUG
+            Debug.Log(string.Format("[Foundations v{0}]: Detach().", Version.Text));  // "Foundations: Detach()");
 
-            /*            Events["EventAttach"].active = true;
-                        Events["EventDetach"].active = false;
+            Debug.Log(string.Format("[Foundations v{0}]: breakForce {1:0.0000}.", Version.Text, breakForce));
+            Debug.Log(string.Format("[Foundations v{0}]: breakTorque {1:0.0000}.", Version.Text, breakTorque));
+            Debug.Log(string.Format("[Foundations v{0}]: attachOffset {1:0.0000}.", Version.Text, attachOffset));
+            Debug.Log(string.Format("[Foundations v{0}]: attachRotation {1:0.0000}.", Version.Text, attachRotation));
+#endif
 
-                        attachOffset = Vector3.zero;
-                        attachRotation = Quaternion.identity;*/
-            isAttached = false;
+
+            attachOffset = Vector3.zero;
+            attachRotation = Quaternion.identity;
+
             SwitchEventState();
+
+            isAttached = false;
+
             DestroyAttachment();
+            Message(Localizer.Format("#Foundations-PartDetach", part.name)); // <<1>> Foundation removed.
         }
 
         public void OnPartUnpack()
@@ -123,9 +147,9 @@ namespace Foundations
             }
         }
 
-        //Clean up the PAW if the part doesn't touch the ground
+        /// OnUpdate
+        /// Clean up the PAW if the part doesn't touch the ground
         public override void OnUpdate()
-        //Clean up the PAW if the part doesn't touch the ground
         {
             if (!part.GroundContact)
             {
@@ -138,24 +162,34 @@ namespace Foundations
                 Events["EventDetach"].guiActive = true;
             }
 
-            //attachOffset = Vector3.op_Subtraction(this.fixedObject.get_transform().get_position(), ((Component)this.get_part()).get_transform().get_position());
-            //Vector3 attachOffset = (fixedObject.transform.position - part.transform.position);
+            // attachOffset = Vector3.op_Subtraction(this.fixedObject.get_transform().get_position(), ((Component)this.get_part()).get_transform().get_position());
+            // Vector3 attachOffset = (fixedObject.transform.position - part.transform.position);
         }
 
         public void OnJointBreak(float force)
         {
-            Debug.LogWarning(string.Format("Foundations: OnJointBreak(force = {0}, isAttached = {1})", force, isAttached));
+
+#if DEBUG
+            Debug.LogWarning(string.Format("[Foundations v{0}]: OnJointBreak(force = {1}, isAttached = {2})", Version.Text, force, isAttached));
+# endif
+
             Detach();
         }
 
         private void CreateAttachment()
         {
-            Debug.Log("Foundations: CreateAttachment");
 
+#if DEBUG
+            Debug.Log("Foundations: CreateAttachment");
             Debug.Log("Foundations: Creating object");
+#endif
+
             CreateFixedObject();
 
+#if DEBUG
             Debug.Log("Foundations: Creating joint");
+#endif
+
             CreateFixedJoint();
         }
 
@@ -182,17 +216,26 @@ namespace Foundations
 
         private void DestroyAttachment()
         {
+
+#if DEBUG
             Debug.Log("Foundations: DestroyAttachment()");
+#endif
             if (fixedJoint != null)
             {
+
+#if DEBUG
                 Debug.Log("Foundations: Destroying joint.");
+#endif
                 Destroy(fixedJoint);
                 fixedJoint = null;
             }
 
             if (fixedObject != null)
             {
+
+#if DEBUG
                 Debug.Log("Foundations: Destroying object.");
+#endif
                 Destroy(fixedObject);
                 fixedObject = null;
             }
