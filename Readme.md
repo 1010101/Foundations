@@ -35,21 +35,12 @@ updated: 31 Aug 2021 -->
 
 The mod currently adds two new parts to the structural tab. These parts are based on the stock structural panels and are intended to be the foundation of any structures you want to build. Right clicking on them while they are touching the ground will give you the option to attach them, fixing them in place.
 
-`Foundation Structural (M-1x1)`:  
-![Foundation Structural (M-1x1]:][IMG:part:0] ![PartInfo: Foundation Structural (M-1x1]:][IMG:partinfo:0]  
+###### `Foundation Structural (M-1x1)`:  
+> ![Foundation Structural (M-1x1]:][IMG:part:0] ![PartInfo][IMG:partinfo:0]  
   
-`Foundation Structural (M-2x2]`:  
-![Foundation Structural (M-2x2):][IMG:part:1] ![PartInfo: Foundation Structural (M-2x2]:][IMG:partinfo:1]   
-
-[IMG:part:0]: https://github.com/zer0Kerbal/Foundations/blob/master/GameData/KGEx/Foundations/Parts/@thumbs/foundations-1x1_icon.png?raw=true "Foundation Structural (M-1x1)"  
-[IMG:partinfo:0]: https://github.com/zer0Kerbal/Foundations/blob/master/img/1x1_icon.png?raw=true "Foundation Structural (M-1x1)" 
-
-
-[IMG:part:1]: https://github.com/zer0Kerbal/Foundations/blob/master/GameData/KGEx/Foundations/Parts/@thumbs/foundations-2x2_icon.png?raw=true "Foundation Structural (M-2x2)"
-[IMG:partinfo:1]: https://github.com/zer0Kerbal/Foundations/blob/master/img/2x2_icon.png?raw=true "Foundation Structural (M-2x2)" 
-
-[IMG:action:0]: https://github.com/zer0Kerbal/Foundations/blob/master/img/attach.png?raw=true "Foundations PAW/RMB"  
-
+###### `Foundation Structural (M-2x2]`:  
+> ![Foundation Structural (M-2x2):][IMG:part:1] ![PartInfo][IMG:partinfo:1]   
+  
 Attach/Detach action:
 
 ![Foundations PAW/RMB][IMG:action:0]  
@@ -57,16 +48,16 @@ Attach/Detach action:
 ### Why do I want this?  
 
 > Jeb wants this because he's clumsy with his EVA suit and every time he bumps the fuel depot on Gilly it flies away...
+> [![example image needed][IMG:hero:1]
 
-[![example image needed](https://i.imgur.com/K0TT8YKl.jpg)](https://i.imgur.com/K0TT8YKl.jpg)
+> Bill wants this because his new crane slides around when he tries to pick up that 30 ton fuel tank...
+> [![example image needed][IMG:hero:2]
 
-Bill wants this because his new crane slides around when he tries to pick up that 30 ton fuel tank...
+> Bob wants this because he's designed his ultimate kethane refinery for the Mun base and he needs it to stay put when Jeb tries to refuel his Mundozer...
+>  [![Mundozer example image needed][IMG:hero:3]
 
-[![example image needed](https://i.imgur.com/RffdKGwl.jpg)](https://i.imgur.com/RffdKGwl.jpg)
-
-Bob wants this because he's designed his ultimate kethane refinery for the Mun base and he needs it to stay put when Jeb tries to refuel his Mundozer...
-
-[![7VHElUYl.jpg](https://i.imgur.com/7VHElUYl.jpg)](https://i.imgur.com/7VHElUYl.jpg)
+> Why does Val want this? best answer (subjective) with image goes here-> 
+> [![Val wants...][IMG:hero:4]
 
 ### Frequently Asked Questions (FAQs)
 
@@ -379,15 +370,6 @@ License: ![License Expat/MIT][LICENSE:shld]][LICENSE:url] [![][LICENSE:logo] ][L
 [LINK:4x4cheesecake]: https://forum.kerbalspaceprogram.com/index.php?/profile/187982-4x4cheesecake/ "4x4cheesecake"  
 [LINK:lisias]: https://forum.kerbalspaceprogram.com/index.php?/profile/187168-lisias/ "Lisias"  
 
-<!-- hero images -->
-[IMG:hero:0]: https://spacedock.info/content/RealGecko_4471/SimpleLogistics/SimpleLogistics-1479979364.054124.png
-[IMG:hero:1]: http://  
-[IMG:hero:2]: http://  
-
-<!-- youtube links -->
-[UTUBE:img]:  http://img.youtube.com/vi/cJjIAE0RoK0/0.jpg  
-[UTUBE:url]: http://www.youtube.com/watch?v=cJjIAE0RoK0 "Kottabo Talks SimpleLogistics"  
-
 <!-- financial support -->
 [PAYPAL:img]: https://img.shields.io/badge/Buy%20me%20some%20-LFO-00457C?style=for-the-badge&logo=paypal&labelColor=FFDD00 "PayPal"  
 [PAYPAL:url]: https://www.paypal.com/donate?hosted_button_id=R9ACWD7VREBCY "PayPal"  
@@ -417,6 +399,25 @@ License: ![License Expat/MIT][LICENSE:shld]][LICENSE:url] [![][LICENSE:logo] ][L
 [RU]: https://raw.githubusercontent.com/zer0Kerbal/zer0Kerbal/zed'K/Localization/img/Russian-flag-sm.png "Русский"  
 [SW]: https://raw.githubusercontent.com/zer0Kerbal/zer0Kerbal/zed'K/Localization/img/Swedish-flag-sm.png "Svenska"  
 [TW]: https://raw.githubusercontent.com/zer0Kerbal/zer0Kerbal/zed'K/Localization/img/Taiwanese-flag-sm.png "国语"
+
+<!-- images -->
+[IMG:part:0]: https://github.com/zer0Kerbal/Foundations/blob/master/GameData/KGEx/Foundations/Parts/@thumbs/foundations-1x1_icon.png?raw=true "Foundation Structural (M-1x1)"  
+[IMG:partinfo:0]: https://github.com/zer0Kerbal/Foundations/blob/master/img/1x1.png?raw=true "Foundation Structural (M-1x1)" 
+[IMG:part:1]: https://github.com/zer0Kerbal/Foundations/blob/master/GameData/KGEx/Foundations/Parts/@thumbs/foundations-2x2_icon.png?raw=true "Foundation Structural (M-2x2)"
+[IMG:partinfo:1]: https://github.com/zer0Kerbal/Foundations/blob/master/img/2x2.png?raw=true "Foundation Structural (M-2x2)" 
+[IMG:action:0]: https://github.com/zer0Kerbal/Foundations/blob/master/img/attach.png?raw=true "Foundations PAW/RMB"  
+
+[IMG:hero:0]: https://spacedock.info/content/RealGecko_4471/SimpleLogistics/SimpleLogistics-1479979364.054124.png
+[IMG:hero:1]: https://via.placeholder.com/540x240png/000000/ffffff?text=Jeb%20wants%20this
+[IMG:hero:2]: https://via.placeholder.com/540x240png/000000/ffffff?text=Bill%20wants%20this  
+[IMG:hero:3]: https://github.com/zer0Kerbal/Foundations/blob/master/img/MünDozer.png?raw=true  
+[IMG:hero:4]: https://via.placeholder.com/540x240png/000000/ffffff?text=Val%20wants%20this  
+
+ 
+
+<!-- youtube links -->
+[UTUBE:img]:  http://img.youtube.com/vi/cJjIAE0RoK0/0.jpg  
+[UTUBE:url]: http://www.youtube.com/watch?v=cJjIAE0RoK0 "Kottabo Talks SimpleLogistics"  
 
 
 <!--
