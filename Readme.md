@@ -52,32 +52,9 @@ updated: 31 Aug 2021 -->
 - [ ]  [![Svenska][SW]][SW] [Swedish (Svenska)][SW] <sw-sw.cfg>  
 - [ ]  [![国语][TW]][TW] [Taiwanese (国语)][TW] <zh-tw.cfg>  
 
-<details>
-  <summary>Languages</summary>
-    <pre>  
-- [x]  [![American English][EN]][EN] [American English][EN] <en-us.cfg>  
-- [ ]  [![Brasil][BR]][BR] [Brazilian][BR] <pt-br.cfg>  
-- [ ]  [![中文][CN]][CN] [Chinese (中文)][CN] <zh-cn.cfg>  
-- [ ]  [![Deutsch][DE]][DE] [German (Deutsch)][DE]  
-- [ ]  [![Español][ES]][ES] [Spanish (Español)][ES]  
-- [ ]  [![Français][FR]][FR] [French (Français)][FR] <fr-fr.cfg>  
-- [ ]  [![Italiano][IT]][IT] [Italian (Italiano)][IT] <it-it.cfg>  
-- [ ]  [![日本語][JA]][JA] [Japanese(日本語)][JA] <ja.cfg>  
-- [ ]  [![한국어][KO]][KO] [Korean (한국어)][KO] <ko.cfg>  
-- [ ]  [![Mexicano][ME]][ME] [Mexican (Mexicano)][ME] <es-mx.cfg>  
-- [ ]  [![Dutch][NL]][NL] [Dutch][NL] <nl-nl.cfg>  
-- [ ]  [![Norsk][NO]][NO] [Norwegian (Norsk)][NO] <no-no.cfg>  
-- [ ]  [![Polski][PO]][PO] [Polish (Polski)][PO] <pl.cfg>  
-- [ ]  [![Русский][RU]][RU] [Russian (Русский)][RU] <ru.cfg>  
-- [ ]  [![Svenska][SW]][SW] [Swedish (Svenska)][SW] <sw-sw.cfg>  
-- [ ]  [![国语][TW]][TW] [Taiwanese (国语)][TW] <zh-tw.cfg>  
-	</pre>
-</details>
-
 See the [README in the Localization folder][LINK:localization] for instructions for adding or improving translations for languages other than English. GitHub push is the best way to contribute.
 
 ***
-
 
 **0.2 Alpha Release**
 
