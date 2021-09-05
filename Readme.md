@@ -30,6 +30,83 @@ updated: 31 Aug 2021 -->
 ![Foundations (FND)][IMG:hero:0]  
 
 ***
+  
+### How do I use it?  
+
+The mod currently adds two new parts to the structural tab. These parts are based on the stock structural panels and are intended to be the foundation of any structures you want to build. Right clicking on them while they are touching the ground will give you the option to attach them, fixing them in place.
+
+`Foundation Structural (M-1x1)`:  
+![Foundation Structural (M-1x1]:][IMG:part:0] ![PartInfo: Foundation Structural (M-1x1]:][IMG:partinfo:0]  
+  
+`Foundation Structural (M-2x2]`:  
+![Foundation Structural (M-2x2):][IMG:part:1] ![PartInfo: Foundation Structural (M-2x2]:][IMG:partinfo:1]   
+
+[IMG:part:0]: https://github.com/zer0Kerbal/Foundations/blob/master/GameData/KGEx/Foundations/Parts/@thumbs/foundations-1x1_icon.png?raw=true "Foundation Structural (M-1x1)"  
+[IMG:partinfo:0]: https://github.com/zer0Kerbal/Foundations/blob/master/img/1x1_icon.png?raw=true "Foundation Structural (M-1x1)" 
+
+
+[IMG:part:1]: https://github.com/zer0Kerbal/Foundations/blob/master/GameData/KGEx/Foundations/Parts/@thumbs/foundations-2x2_icon.png?raw=true "Foundation Structural (M-2x2)"
+[IMG:partinfo:1]: https://github.com/zer0Kerbal/Foundations/blob/master/img/2x2_icon.png?raw=true "Foundation Structural (M-2x2)" 
+
+[IMG:action:0]: https://github.com/zer0Kerbal/Foundations/blob/master/img/attach.png?raw=true "Foundations PAW/RMB"  
+
+Attach/Detach action:
+
+![Foundations PAW/RMB][IMG:action:0]  
+  
+### Why do I want this?  
+
+> Jeb wants this because he's clumsy with his EVA suit and every time he bumps the fuel depot on Gilly it flies away...
+
+[![example image needed](https://i.imgur.com/K0TT8YKl.jpg)](https://i.imgur.com/K0TT8YKl.jpg)
+
+Bill wants this because his new crane slides around when he tries to pick up that 30 ton fuel tank...
+
+[![example image needed](https://i.imgur.com/RffdKGwl.jpg)](https://i.imgur.com/RffdKGwl.jpg)
+
+Bob wants this because he's designed his ultimate kethane refinery for the Mun base and he needs it to stay put when Jeb tries to refuel his Mundozer...
+
+[![7VHElUYl.jpg](https://i.imgur.com/7VHElUYl.jpg)](https://i.imgur.com/7VHElUYl.jpg)
+
+### Frequently Asked Questions (FAQs)
+
+##### How solid are the foundations?  
+  
+  > The foundations are implemented using a physics joint and are intended to behave somewhat like real foundations. That means for reasonable loads they will be very solid but for larger loads, particularly unbalanced ones, you're going to need to think just a little more. I put together some examples [here example image needed](https://imgur.com/a/QBtYH#0). One of my main concerns was making sure they save and reload without any movement or slippage.
+
+##### Will the foundations break?  
+  
+  > The joint holding them in place does have break forces set on it so yes. They are set high enough that you should be doing something quite unreasonable before this happens, and will probably break something else first. The larger foundation has relatively larger break forces as well.  
+  
+##### How do I get my structure to the right place?  
+
+  > Currently that is entirely up to you. At my Gilly base gravity is so low I use RCS to fly them into place Starcraft 2 style. On planets with more gravity you could use a large rover, or rockets, or winch it there with KAS or... be creative! If you have any ideas about such functionality that would work well in the mod do leave a suggestion.  
+
+##### Can I make my own foundation parts?  
+  
+  > If you're familiar with part config files this is very easy. Note that any parts you make are your responsibility and I wont be officially supporting them. Look in `*GameData/KGEx/Foundations/Parts/foundation-1x1.cfg*` to see how the parts are put together, all that makes it a foundation part is the MODULE block at the end. Try something crazy like adding the module to landing legs... actually that sounds awesome, be right back... Submit your parts for possible future inclusion!
+
+##### What are your future plans?  
+  
+  > I would like to create some more visually effective parts, particularly ones that deal nicely with building on sloped surfaces. Other than that I'm open to suggestions and Github PR's... where do you want this to go?
+  
+***  
+  
+### How to support this and many other mods by [`@zer0kerbal`][LINK:zer0Kerbal]  
+
+> Right now I need your feedback to help me decide on future direction for this and other mods. What can you build with it? What do you want to build that you can't? What parts should I provide and what features should they have? I would love to see some screenshots of your creations and hear your ideas. 
+
+> Bonus points if you build me a Mundozer!
+
+[![Support][PAYPAL:img]][PAYPAL:url] [![Patreon][PATREON:img]][PATREON:url] [![Github Sponsor][GSPONS:img]][GSPONS:url] [![Buy zer0Kerbal a snack][BMCC:img]][BMCC:url] 
+   
+*** 
+
+### Discussions: 
+
+*See [Discussions][MOD:disc] or [KSP Forums][MOD:threads] for discussions and news on this mod* 
+
+*** 
 
 ### Localization  
   
@@ -54,84 +131,8 @@ updated: 31 Aug 2021 -->
 
 See the [README in the Localization folder][LINK:localization] for instructions for adding or improving translations for languages other than English. GitHub push is the best way to contribute.
 
-***
-
-**How do I use it?**
-
-The mod currently adds two new parts to the structural tab. These parts are based on the stock structural panels and are intended to be the foundation of any structures you want to build. Right clicking on them while they are touching the ground will give you the option to attach them, fixing them in place.
-
-M-1x1 Structural Foundation:
-
-![M-1x1 Structural Foundation:](https://github.com/zer0Kerbal/Foundations/blob/master/GameData/KGEx/Foundations/Parts/@thumbs/foundations-1x1_icon.png?raw=true)  
-M-2x2 Structural Foundation:  
-![M-2x2 Structural Foundation:](https://github.com/zer0Kerbal/Foundations/blob/master/GameData/KGEx/Foundations/Parts/@thumbs/foundations-2x2_icon.png?raw=true)  
-
-Attach/Detach action:
-
-[![Rq5NUC1.jpg](https://i.imgur.com/Rq5NUC1.jpg)](https://i.imgur.com/Rq5NUC1.jpg)
-
-**Why do I want this?**
-
-Jeb wants this because he's clumsy with his EVA suit and every time he bumps the fuel depot on Gilly it flies away...
-
-[![example image needed](https://i.imgur.com/K0TT8YKl.jpg)](https://i.imgur.com/K0TT8YKl.jpg)
-
-Bill wants this because his new crane slides around when he tries to pick up that 30 ton fuel tank...
-
-[![example image needed](https://i.imgur.com/RffdKGwl.jpg)](https://i.imgur.com/RffdKGwl.jpg)
-
-Bob wants this because he's designed his ultimate kethane refinery for the Mun base and he needs it to stay put when Jeb tries to refuel his Mundozer...
-
-[![7VHElUYl.jpg](https://i.imgur.com/7VHElUYl.jpg)](https://i.imgur.com/7VHElUYl.jpg)
-
-**Frequently Asked Questions**
-
-**How solid are the foundations?**
-
-The foundations are implemented using a physics joint and are intended to behave somewhat like real foundations. That means for reasonable loads they will be very solid but for larger loads, particularly unbalanced ones, you're going to need to think just a little more. I put together some examples [here example image needed](https://imgur.com/a/QBtYH#0). One of my main concerns was making sure they save and reload without any movement or slippage.
-
-- Will the foundations break?
-> The joint holding them in place does have break forces set on it so yes. They are set high enough that you should be doing something quite unreasonable before this happens, and will probably break something else first. The larger foundation has relatively larger break forces as well.
-
-**How do I get my structure to the right place?**
-
-Currently that is entirely up to you. At my Gilly base gravity is so low I use RCS to fly them into place Starcraft 2 style. On planets with more gravity you could use a large rover, or rockets, or winch it there with KAS or... be creative! If you have any ideas about such functionality that would work well in the mod do leave a suggestion.
-
-**Can I make my own foundation parts?**
-
-If you're familiar with part config files this is very easy. Note that any parts you make are your responsibility and I wont be officially supporting them. Look in *GameData/KGEx/Foundations/Parts/Foundations.cfg* to see how the parts are put together, all that makes it a foundation part is the MODULE block at the end. Try something crazy like adding the module to landing legs... actually that sounds awesome, be right back...
-
-**What are your future plans?**
-
-I would like to create some more visually effective parts, particularly ones that deal nicely with building on sloped surfaces. Other than that I'm open to suggestions... where do you want this to go?
-
-**Known Issues**
-
-None...
--  landing gear can be retracted while Foundations is still attached to the ground. 'Jeb, I think we're stuck....'
-
-
-
-**How can I help?**
-
-Right now I need your feedback to help me decide on future direction for the mod. What can you build with it? What do you want to build that you can't? What parts should I provide and what features should they have? I would love to see some screenshots of your creations and hear your ideas.
-
-Bonus points if you build me a Mundozer!
-
-***
+***  
   
-### How to support this and many other mods by [`@zer0kerbal`][LINK:zer0Kerbal]  
-
-[![Support][PAYPAL:img]][PAYPAL:url] [![Patreon][PATREON:img]][PATREON:url] [![Github Sponsor][GSPONS:img]][GSPONS:url] [![Buy zer0Kerbal a snack][BMCC:img]][BMCC:url] 
-   
-*** 
-
-### Discussions: 
-
-*See [Discussions][MOD:disc] or [KSP Forums][MOD:threads] for discussions and news on this mod* 
-
-*** 
-
 ### Installation Directions:
 
 - Use CKAN  
@@ -144,7 +145,8 @@ Bonus points if you build me a Mundozer!
 ### Known Issues
 
 - *See [Known Issues][MOD:known] for full details of feature requests, and known issues*
-
+-  landing gear with MODULE[Foundations] can be retracted while it's Foundations is still attached to the ground. `'Jeb, I think we're stuck....'` [(Issue #11)](https://github.com/zer0Kerbal/Foundations/issues/11)  
+  
 ### Dependencies
 
 - [x]  [Kerbal Space Program][KSP:url] [![][KSP:shld]][KSP:url]  ***may*** work on other versions (YMMV)  
@@ -209,7 +211,6 @@ Bonus points if you build me a Mundozer!
 - physics, parts, addon
 
 *** 
-
 
 <div style="border:0.5px solid Tomato; background-color: lightgrey; color: #FF0000; text-align:center">
 <p><b>*red box below is a link to forum post on how to get support*</b>  
