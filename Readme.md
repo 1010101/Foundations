@@ -47,17 +47,17 @@ Attach/Detach action:
   
 ### Why do I want this?  
 
-> Jeb wants this because he's clumsy with his EVA suit and every time he bumps the fuel depot on Gilly it flies away...
-> [![example image needed][IMG:hero:1]
+> Jeb wants this because he's clumsy with his EVA suit and every time he bumps the fuel depot on Gilly it flies away...  
+> ![example image needed][IMG:hero:1]
 
 > Bill wants this because his new crane slides around when he tries to pick up that 30 ton fuel tank...
-> [![example image needed][IMG:hero:2]
+> ![example image needed][IMG:hero:2]
 
 > Bob wants this because he's designed his ultimate kethane refinery for the Mun base and he needs it to stay put when Jeb tries to refuel his Mundozer...
->  [![Mundozer example image needed][IMG:hero:3]  
+> ![Mundozer example image needed][IMG:hero:3]  
 
 > Why does Val want this? best answer (subjective) with image goes here-> 
-> [![Val wants...][IMG:hero:4]
+> ![Val wants...][IMG:hero:4]
 
 ### Frequently Asked Questions (FAQs)
 
