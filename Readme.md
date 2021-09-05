@@ -54,7 +54,7 @@ Attach/Detach action:
 > [![example image needed][IMG:hero:2]
 
 > Bob wants this because he's designed his ultimate kethane refinery for the Mun base and he needs it to stay put when Jeb tries to refuel his Mundozer...
->  [![Mundozer example image needed][IMG:hero:3]
+>  [![Mundozer example image needed][IMG:hero:3]  
 
 > Why does Val want this? best answer (subjective) with image goes here-> 
 > [![Val wants...][IMG:hero:4]
@@ -63,7 +63,7 @@ Attach/Detach action:
 
 ##### How solid are the foundations?  
   
-  > The foundations are implemented using a physics joint and are intended to behave somewhat like real foundations. That means for reasonable loads they will be very solid but for larger loads, particularly unbalanced ones, you're going to need to think just a little more. I put together some examples [here example image needed](https://imgur.com/a/QBtYH#0). One of my main concerns was making sure they save and reload without any movement or slippage.
+  > The foundations are implemented using a physics joint and are intended to behave somewhat like real foundations. That means for reasonable loads they will be very solid but for larger loads, particularly unbalanced ones, you're going to need to think just a little more. I put together some examples [here example image needed][IMG:hero:5]. One of my main concerns was making sure they save and reload without any movement or slippage.
 
 ##### Will the foundations break?  
   
@@ -71,7 +71,7 @@ Attach/Detach action:
   
 ##### How do I get my structure to the right place?  
 
-  > Currently that is entirely up to you. At my Gilly base gravity is so low I use RCS to fly them into place Starcraft 2 style. On planets with more gravity you could use a large rover, or rockets, or winch it there with KAS or... be creative! If you have any ideas about such functionality that would work well in the mod do leave a suggestion.  
+  > Currently that is entirely up to you. At my Gilly base gravity is so low I use RCS to fly my bases[them] into place Starcraft 2 style. On planets with more gravity you could use a large rover, or rockets, or winch it there with KAS or... be creative! If you have any ideas about such functionality that would work well in the mod do leave a suggestion.  
 
 ##### Can I make my own foundation parts?  
   
@@ -407,11 +407,13 @@ License: ![License Expat/MIT][LICENSE:shld]][LICENSE:url] [![][LICENSE:logo] ][L
 [IMG:partinfo:1]: https://github.com/zer0Kerbal/Foundations/blob/master/img/2x2.png?raw=true "Foundation Structural (M-2x2)" 
 [IMG:action:0]: https://github.com/zer0Kerbal/Foundations/blob/master/img/attach.png?raw=true "Foundations PAW/RMB"  
 
-[IMG:hero:0]: https://spacedock.info/content/RealGecko_4471/SimpleLogistics/SimpleLogistics-1479979364.054124.png
+[IMG:hero:0]: https://media.forgecdn.net/avatars/429/347/637664091078128669.png
 [IMG:hero:1]: https://via.placeholder.com/540x240png/000000/ffffff?text=Jeb%20wants%20this
 [IMG:hero:2]: https://via.placeholder.com/540x240png/000000/ffffff?text=Bill%20wants%20this  
-[IMG:hero:3]: https://github.com/zer0Kerbal/Foundations/blob/master/img/MünDozer.png?raw=true  
+[IMG:hero:3]: https://github.com/zer0Kerbal/Foundations/blob/master/img/MünDozer.png?raw=true  "Bob wants his MünDozer to not float away"  
 [IMG:hero:4]: https://via.placeholder.com/540x240png/000000/ffffff?text=Val%20wants%20this  
+[IMG:hero:5]: https://via.placeholder.com/540x240png/000000/ffffff?text=Val%20wants%20this  
+[IMG:hero:6]: https://via.placeholder.com/800x400png/21970f/ff0000?text=Foundations  
 
  
 
