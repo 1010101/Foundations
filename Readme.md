@@ -43,7 +43,7 @@ The mod currently adds two new parts to the structural tab. These parts are base
   
 Attach/Detach action:
 
-![Foundations PAW/RMB][IMG:action:0]  
+> ![Foundations PAW/RMB][IMG:action:0]  
   
 ### Why do I want this?  
 
@@ -410,7 +410,7 @@ License: ![License Expat/MIT][LICENSE:shld]][LICENSE:url] [![][LICENSE:logo] ][L
 [IMG:hero:0]: https://media.forgecdn.net/avatars/429/347/637664091078128669.png
 [IMG:hero:1]: https://via.placeholder.com/540x240png/000000/ffffff?text=Jeb%20wants%20this
 [IMG:hero:2]: https://via.placeholder.com/540x240png/000000/ffffff?text=Bill%20wants%20this  
-[IMG:hero:3]: https://github.com/zer0Kerbal/Foundations/blob/master/img/MünDozer.png?raw=true  "Bob wants his MünDozer to not float away"  
+[IMG:hero:3]: https://raw.githubusercontent.com/zer0Kerbal/Foundations/master/img/M%C3%BCnDozer.png "Bob wants his MünDozer to not float away"  
 [IMG:hero:4]: https://via.placeholder.com/540x240png/000000/ffffff?text=Val%20wants%20this  
 [IMG:hero:5]: https://via.placeholder.com/540x240png/000000/ffffff?text=Val%20wants%20this  
 [IMG:hero:6]: https://via.placeholder.com/800x400png/21970f/ff0000?text=Foundations  
