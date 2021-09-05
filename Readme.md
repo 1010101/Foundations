@@ -18,12 +18,11 @@ updated: 31 Aug 2021 -->
 
 #### Adopted by [@zer0Kerbal][LINK:zer0kerbal], originally by [@Sparkle][LINK:sparkle], and updated by [@4x4cheesecake][LINK:4x4cheesecake]  
 
-![Mod Version][MOD:shld:latest] ![KSP version][KSP:shld]  [![License Expat/MIT][LICENSE:shld]][LICENSE:url]   
+![Mod Version][MOD:shld:latest] ![KSP version][KSP:shld]  [![License Expat-MIT][LICENSE:shld]][LICENSE:url]   
 
 [![Curseforge][CURSFG:shld]][CURSFG:url] [![CKAN][CKAN:shd]][CKAN:url] [![GitHub][GITHUB:shld]][GITHUB:url] [![SpaceDock][SPCDCK:shld]][SPCDCK:url]  
 
 ![Code][CODE:shld] ![KSP-AVC][AVC:shld] ![Validate AVC .version files][AVCVLD:shld] 
-
 
 ***
 
@@ -230,7 +229,7 @@ See the [README in the Localization folder][LINK:localization] for instructions 
 
 Forum: [Thread][MOD:thread]  
 Source: [GitHub][GITHUB:url]  
-License: [![License Expat/MIT][LICENSE:shld]][LICENSE:url]   
+License: [![License Expat-MIT][LICENSE:shld]][LICENSE:url]   
 > *** All bundled mods are distributed under their own licenses***  
 > *** All art assets (textures, models, animations) are distributed under their own licenses***  
 
@@ -239,7 +238,7 @@ License: [![License Expat/MIT][LICENSE:shld]][LICENSE:url]
 [Thread][MOD:original:thread]  
 [Download][MOD:original:download]  
 Source: [GitHub][MOD:original:source]  
-License: [![License ExpatMIT][LICENSE:shld]][LICENSE:url]   
+License: [![License Expat-MIT][LICENSE:shld]][LICENSE:url]   
 
 <!-- graphical links to downloads -->
 [![][CURSFG:img]][CURSFG:url] [![][GITHUB:img]][GITHUB:url] [![][SPCDCK:img]][SPCDCK:url]  
