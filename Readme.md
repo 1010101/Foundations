@@ -56,16 +56,6 @@ See the [README in the Localization folder][LINK:localization] for instructions 
 
 ***
 
-**0.2 Alpha Release**
-
-This is the very first release and is intended to show the general concept and get people testing and providing feedback. As this is a first alpha release is has little testing, is generally incomplete and may well destroy your life. Back up you save games before using and be aware that I do *not* guarantee to maintain compatibility with it in future versions.
-
-
-
-
-
-Special thanks to every other mod author for making my game awesome and having source code I can learn from!
-
 **How do I use it?**
 
 The mod currently adds two new parts to the structural tab. These parts are based on the stock structural panels and are intended to be the foundation of any structures you want to build. Right clicking on them while they are touching the ground will give you the option to attach them, fixing them in place.
@@ -84,11 +74,11 @@ Attach/Detach action:
 
 Jeb wants this because he's clumsy with his EVA suit and every time he bumps the fuel depot on Gilly it flies away...
 
-[![K0TT8YKl.jpg](https://i.imgur.com/K0TT8YKl.jpg)](https://i.imgur.com/K0TT8YKl.jpg)
+[![example image needed](https://i.imgur.com/K0TT8YKl.jpg)](https://i.imgur.com/K0TT8YKl.jpg)
 
 Bill wants this because his new crane slides around when he tries to pick up that 30 ton fuel tank...
 
-[![RffdKGwl.jpg](https://i.imgur.com/RffdKGwl.jpg)](https://i.imgur.com/RffdKGwl.jpg)
+[![example image needed](https://i.imgur.com/RffdKGwl.jpg)](https://i.imgur.com/RffdKGwl.jpg)
 
 Bob wants this because he's designed his ultimate kethane refinery for the Mun base and he needs it to stay put when Jeb tries to refuel his Mundozer...
 
@@ -98,11 +88,10 @@ Bob wants this because he's designed his ultimate kethane refinery for the Mun b
 
 **How solid are the foundations?**
 
-The foundations are implemented using a physics joint and are intended to behave somewhat like real foundations. That means for reasonable loads they will be very solid but for larger loads, particularly unbalanced ones, you're going to need to think just a little more. I put together some examples [here](https://imgur.com/a/QBtYH#0). One of my main concerns was making sure they save and reload without any movement or slippage.
+The foundations are implemented using a physics joint and are intended to behave somewhat like real foundations. That means for reasonable loads they will be very solid but for larger loads, particularly unbalanced ones, you're going to need to think just a little more. I put together some examples [here example image needed](https://imgur.com/a/QBtYH#0). One of my main concerns was making sure they save and reload without any movement or slippage.
 
-**Will the foundations break?**
-
-The joint holding them in place does have break forces set on it so yes. They are set high enough that you should be doing something quite unreasonable before this happens, and will probably break something else first. The larger foundation has relatively larger break forces as well.
+- Will the foundations break?
+> The joint holding them in place does have break forces set on it so yes. They are set high enough that you should be doing something quite unreasonable before this happens, and will probably break something else first. The larger foundation has relatively larger break forces as well.
 
 **How do I get my structure to the right place?**
 
