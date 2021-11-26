@@ -9,13 +9,12 @@ updated: 2020 04 10 -->
 ## The Common Part Inventory
 
 
-Originally written by Sparkle. Link to the original mod thread: https://forum.kerbalspaceprogram.com/index.php?/topic/51430-plugin-022-wip-foundations-update-alpha-release-02/&tab=comments#comment-739075
+Originally written by Sparkle. Link to the original mod thread: (https://forum.kerbalspaceprogram.com/index.php?/topic/51430-*)
 
 An addon for Kerbal Space Program which allows establishing a connection between parts and the ground. Prevents ground constructions from float/sliding away :)
 
+#### Adopted by [@`zer0Kerbal`][LINK:zer0Kerbal], originally by [@`Sparkle`][LINK:sparkle]  
 
-
-#### Adopted by [@zer0Kerbal][LINK:zer0kerbal], originally by [@severedsolo][LINK:severedsolo]  
 ![Mod Version][shield:mod:latest] 
 ![KSP version][shield:ksp] ![KSP-AVC][shield:kspavc] ![License MIT][shield:license] ![][LOGO:mit]   
 ![SpaceDock][shield:spacedock] ![CKAN][shield:ckan] ![GitHub][shield:github] ![Curseforge][shield:curseforge]  
@@ -73,7 +72,7 @@ License: ![License MIT][shield:license] ![][LOGO:MIT]
 > *** All bundled mods are distributed under their own licenses***  
 > *** All art assets (textures, models, animations) are distributed under their own licenses***   
 ### Original
-Author: [@severedsolo][LINK:severedsolo]  
+Author: [@Sparkle][LINK:sparkle]  
 [Thread][MOD:original:thread]  
 [Download][MOD:original:download]  
 Source: [GitHub][MOD:original:source]  
@@ -197,14 +196,8 @@ License: ![License MIT][shield:license:original] ![][LOGO:mit]
 
 [thread:getsupport]: https://forum.kerbalspaceprogram.com/index.php?/topic/83212-* "Link to how to get support"  
 
-[LINK:magico13]:       https://forum.kerbalspaceprogram.com/index.php?/profile/73338-magico13/ "Magico13"  
-[LINK:severedsolo]:    https://forum.kerbalspaceprogram.com/index.php?/profile/80345-severedsolo/ "SeveredSolo"  
-[LINK:linuxgurugamer]: https://forum.kerbalspaceprogram.com/index.php?/profile/129964-linuxgurugamer/ 'LinuxGuruGamer"  
-[LINK:siriussame]:     https://forum.kerbalspaceprogram.com/index.php?/profile/116426-siriussam/ "SiriusSam"  
-[LINK:enneract]:       https://forum.kerbalspaceprogram.com/index.php?/profile/56759-enneract/ "Enneract"  
-[LINK:pehvbot]:        https://forum.kerbalspaceprogram.com/index.php?/profile/182810-pehvbot/ "Pehvbot"  
-[LINK:russnash37]: https://forum.kerbalspaceprogram.com/index.php?/profile/77512-russnash37/ "RussNash37" 
-[LINK:zer0Kerbal]:     https://forum.kerbalspaceprogram.com/index.php?/profile/190933-zer0kerbal/ "zed'K"  
+[LINK:sparkle]: https://forum.kerbalspaceprogram.com/index.php?/profile/91081-sparkle/ "Sparkle"  
+[LINK:zer0Kerbal]: https://forum.kerbalspaceprogram.com/index.php?/profile/190933-zer0kerbal/ "zed'K"  
 
 [IMG:hero:0]: https://i.imgur.com/DVDdgU1.png
 [IMG:hero:1]: https://i.imgur.com/y0vd6WS.png
