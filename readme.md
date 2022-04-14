@@ -17,10 +17,6 @@ Originally written by Sparkle. Link to the original mod thread: (https://forum.k
 ![SpaceDock][shield:spacedock] ![CKAN][shield:ckan] ![GitHub][shield:github] ![Curseforge][shield:curseforge]  
 ![Code][shield:code] ![Validate AVC .version files][shield:avcvalid]  
 
----
-
-![Foundations][IMG:hero:0]
-
 ### Installation Directions:
 
 - Use CKAN  
