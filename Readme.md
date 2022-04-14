@@ -3,15 +3,12 @@ Foundations (FND)
 created: 01 Oct 19
 updated: 2020 04 10 -->
 
-## Download on [SpaceDock][MOD:rel-spacedock] or [Github][MOD:rel-github] or [Curseforge][MOD:rel-curseforge]. Also available on [CKAN][MOD:rel-ckan].  
-
 # Foundations (FND)
-## The Common Part Inventory
 
+An addon for Kerbal Space Program which allows establishing a connection between parts and the ground. Prevents ground constructions from float/sliding away :)
 
 Originally written by Sparkle. Link to the original mod thread: (https://forum.kerbalspaceprogram.com/index.php?/topic/51430-*)
 
-An addon for Kerbal Space Program which allows establishing a connection between parts and the ground. Prevents ground constructions from float/sliding away :)
 
 #### Adopted by [@`zer0Kerbal`][LINK:zer0Kerbal], originally by [@`Sparkle`][LINK:sparkle]  
 
@@ -19,59 +16,56 @@ An addon for Kerbal Space Program which allows establishing a connection between
 ![KSP version][shield:ksp] ![KSP-AVC][shield:kspavc] ![License MIT][shield:license] ![][LOGO:mit]   
 ![SpaceDock][shield:spacedock] ![CKAN][shield:ckan] ![GitHub][shield:github] ![Curseforge][shield:curseforge]  
 ![Code][shield:code] ![Validate AVC .version files][shield:avcvalid]  
-***
+
+---
+
 ![Foundations][IMG:hero:0]
-### Preamble by [@severedsolo][LINK:severedsolo]: 
-> So you may have heard that @magico13 is giving up modding KSP. I've got the honour of taking over support for Foundations, because it makes sense as I have my own mod that depends on it (Oh Scrap!). I want to take this opportunity to thank magico13 for all his hard work and contributions to the community over the years, as I know that my own KSP experience would be much poorer without his mods. Anyway, enough from me.
+
 ### Installation Directions:
+
 - Use CKAN  
 ![][image:rel-ckan][CKAN][MOD:rel-ckan]
+
 ### Changelog Summary
+
 - *See [ChangeLog][MOD:changelog] for full details of mod changes*
+
 ### Known Issues
+
 - *See [Known Issues][MOD:issues] for full details of feature requests, and known issues*
+
 ### Dependencies
-- [x] [Kerbal Space Program][KSP:website] [![][shield:ksp]][KSP:website] ***may*** work on other versions ]/YMMV/
-- [x] [Module Manager][thread:mm]  
-### Recommends  
-- [x] [Kerbal Changelog][thread:kcl]  
+
+- [Kerbal Space Program][KSP:website] [![][shield:ksp]][KSP:website] ***may*** work on other versions ]/YMMV/
+- [Module Manager][thread:mm]  
+
 ### Suggests
-- [x] [On Demand Fuel Cells {ODFC)}][thread:ODFC]  
-- [x] [Field Training Facility (FTF)][thread:FTF]  
-- [x] [Field Training Lab (FTL)][thread:FTL]  
-- [x] [Docking Port Descriptions(DPD)][thread:DPD]  
-- [x] [PicoPort Shielded (PPS)][thread:PPS]  
-- [x] [Transparent Command Pods Repressurized)(TCP)][thread:TCP]  
-- [x] [Stork Delivery System (SDS)][thread:SDS]
-- [x] [Biomatic][thread:BIO]
-- [x] [B9 Stock Switches (BSS)]()
-- [x] [Oh Scrap!][thread:OHS]:  
-- [x] [ScrapYard][thread:SYD]:  
-- [x] [DaMichel's AeroRadial][thread:DAR]  
-- [x] [DaMichel's CargoBays][thread:DCB]  
-- [x] [DaMichel's Fuselage][thread:DMF]  
-- [x] [DaMichel's Spherical Tanks][thread:DST]  
-- [x] [Stork Delivery System (SDS)][thread:SDS]  
-- [x] [SimpleConstructon!][thread:SC!]  
-- [x] [Not So SimpleConstructon!][thread:NSSC]  
 - [x] [TweakScale][thread:twk]  
-- [x] [Community Resource Pack][thread:crp]  
+
 ### Supports
+
 - [x] [TweakScale][thread:tweakscale]  
-- [x] [Kerbal Changelog][thread:kcl]
+
 ### Conflicts
+
 - [x] none known
-***  
+
+--- 
+
 *red box below is a link to forum post on how to get support*  
 [![How to get support][image:get-support]][thread:getsupport]
 
 ### License
+
 #### aka Legal Mumbo Jumbo
+
 Source: [GitHub][MOD:github:repo]  
 License: ![License MIT][shield:license] ![][LOGO:MIT]    
 > *** All bundled mods are distributed under their own licenses***  
 > *** All art assets (textures, models, animations) are distributed under their own licenses***   
+
 ### Original
+
 Author: [@Sparkle][LINK:sparkle]  
 [Thread][MOD:original:thread]  
 [Download][MOD:original:download]  
@@ -90,7 +84,7 @@ License: ![License MIT][shield:license:original] ![][LOGO:mit]
 [MOD:wiki]:         https://github.com/zer0Kerbal/Foundations/
 [MOD:issues]:       https://github.com/zer0Kerbal/Foundations/issues
 [MOD:known]:        https://github.com/zer0Kerbal/Foundations/wiki/Known-Issues
-[MOD:forum]:        https://forum.kerbalspaceprogram.com/index.php?/topic/192456-*
+[MOD:forum]:        https://forum.kerbalspaceprogram.com/index.php?/topic/192456-*/
 [MOD:github:repo]:  https://github.com/zer0Kerbal/Foundations/
 [MOD:changelog]:    https://github.com/zer0Kerbal/Foundations/Changelog.cfg
 [KSP:website]:      https://kerbalspaceprogram.com/ "Kerbal Space Program"  
@@ -119,8 +113,6 @@ License: ![License MIT][shield:license:original] ![][LOGO:mit]
 [image:get-support]:    https://i.postimg.cc/vHP6zmrw/image.png
 
 [image:rel-ckan]:  https://i.postimg.cc/x8XSVg4R/sj507JC.png
-[image:changelog]: https://i.postimg.cc/qM9p4V0C/changelog.png
-[image:source]:    https://i.postimg.cc/tJ8GqW0H/source.png
 
 [mage:rel-github-sm]:      https://i.postimg.cc/1XXy5yfD/github.png
 [image:rel-spacedock-sm]:  https://i.postimg.cc/DZ22Hrhj/spacedock.png
@@ -139,60 +131,8 @@ License: ![License MIT][shield:license:original] ![][LOGO:mit]
 [shield:avcvalid]:    https://github.com/zer0Kerbal/Foundations/workflows/Validate%20AVC%20.version%20files/badge.svg
 
 <!-- zer0Kerbal mods -->
-[thread:ODFC]: https://forum.kerbalspaceprogram.com/index.php?/topic/187625-* "On Demand Fuel Cells"  
-[thread:FTF]:  https://forum.kerbalspaceprogram.com/index.php?/topic/188841-* "Field Training Facility"  
-[thread:FTL]:  https://forum.kerbalspaceprogram.com/index.php?/topic/188841-* "Field Training Lab"  
-[thread:MHH]:  https://forum.kerbalspaceprogram.com/index.php?/topic/188246-* "More Hitchhikers"  
-[thread:TCP]:  https://forum.kerbalspaceprogram.com/index.php?/topic/187495-* "Transparent Command Pods"  
-[thread:NUK]:  https://forum.kerbalspaceprogram.com/index.php?/topic/21466-*  "Nuke Tiny Parts"
-[thread:OHS]:  https://forum.kerbalspaceprogram.com/index.php?/topic/192360-* "Oh Scrap!"  
-[thread:SYD]:  https://forum.kerbalspaceprogram.com/index.php?/topic/192360-* "ScrapYard"  
-[thread:DPD]:  https://forum.kerbalspaceprogram.com/index.php?/topic/192184-* "Docking Port Descriptions"
-[thread:PPS]:  https://forum.kerbalspaceprogram.com/index.php?/topic/192187-* "Shielded PicoPort"  
-[thread:DST]:  https://forum.kerbalspaceprogram.com/index.php?/topic/191719-* "DaMichel's Spherical Tanks"  
-[thread:DMF]:  https://forum.kerbalspaceprogram.com/index.php?/topic/191719-* "DaMichel's Fuselage"  
-[thread:DAR]:  https://forum.kerbalspaceprogram.com/index.php?/topic/191719-* "DaMichel's AeroRadial"  
-[thread:DCB]:  https://forum.kerbalspaceprogram.com/index.php?/topic/191719-* "DaMichel's CargoBays"  
-[thread:SDS]:  https://forum.kerbalspaceprogram.com/index.php?/topic/191719-* "Stork Delivery System (SDS)"    
-[thread:BIO]:  https://forum.kerbalspaceprogram.com/index.php?/topic/191426-* "Biomatic"  
-[thread:B9S]:  https://forum.kerbalspaceprogram.com/index.php?/topic/190870-* "B9 Stock Patches"   
-[thread:KGX]:  https://forum.kerbalspaceprogram.com/index.php?/topic/192696-* "KerGuise Experimental Engineering"  
-[thread:SC!]:  https://forum.kerbalspaceprogram.com/index.php?/topic/191424-* "SimpleConstructon!"  
-[thread:SL!]:  https://forum.kerbalspaceprogram.com/index.php?/topic/191045-* "SimpleLogistics!"  
-[thread:NSSC]:  https://forum.kerbalspaceprogram.com/index.php?/topic/191504-* "Not So SimpleConstructon!"  
-[thread:BOOM]: https://forum.kerbalspaceprogram.com/index.php?/topic/192938-* "KaboOom!"
-[thread:VG0]:  https:// "Vanguard Phase I"  
-[thread:VG1]:  https:// "Vanguard Phase II"  
-[thread:VGR]:  https:// "Vanguard Rodent"  
-[thread:PRB]:  https:// "ProbiTronics"  
-[thread:CTN]:  https:// "CTN"  
-[thread:HBF]:  https:// "HotBeverages Fuel Cells" 
-[thread:HBX]:  https:// "HotBeverages Experimental" 
-[thread:HBM]:  https:// "HotBeverages Sensor Modules" 
-[thread:HMS]:  https:// "HotBeverages Service Modules" 
-[thread:HBK]:  https:// "HotBeverages Kerturn" 
-[thread:DRL]:  https:// "DRElite (DRL)"
-[thread:AIM]:  https:// "LandingAim"  
-[thread:GFC]:  https:// "G-Force"
-[thread:JET]:  https:// "Jettison"  
-[thread:SIL]:  https:// "Stock Inline Lights"  
-[thread:SILP]: https:// "Stock Inline Lights Patches"
-[thread:DSV]:  https:// "DECQ Saturn V"  
-[thread:DKX]:  https:// "DECQ KerbalX"  
-[thread:DN1]:  https:// "DECQ N-1"  
-[thread:DP+]:  https:// "DECQ Proton"  
-[thread:SSS]:  https:// "DECQ Space Shuttle System"  
-[thread:ARP]:  https:// "TriggerAu's Alternate Resource Panel"  
-[thread:ARI]:  https:// "Olympic1's Icons for ARP"  
-[thread:AAD]:  https:// "Axial Aerospace Dreamer"  
-[thread:AAL]:  https:// "Axial Aerospace LanderTek"  
-[thread:AAS]:  https:// "Axial Aerospace SimpleCargo"  
-[thread:AAW]:  https:// "Axial Aerospace WhimChaser"  
-
 [thread:mm]:  https://forum.kerbalspaceprogram.com/index.php?/topic/50533-* "Module Manager"   
-[thread:kcl]: https://forum.kerbalspaceprogram.com/index.php?/topic/179207-* "Kerbal Changelog"  
 [thread:twk]: https://forum.kerbalspaceprogram.com/index.php?/topic/179030-* "TweakScale"  
-[thread:crp]: https://forum.kerbalspaceprogram.com/index.php?/topic/83007-* "Community Resource Pack"  
 
 [thread:getsupport]: https://forum.kerbalspaceprogram.com/index.php?/topic/83212-* "Link to how to get support"  
 
@@ -202,6 +142,4 @@ License: ![License MIT][shield:license:original] ![][LOGO:mit]
 [IMG:hero:0]: https://i.imgur.com/DVDdgU1.png
 [IMG:hero:1]: https://i.imgur.com/y0vd6WS.png
 
-<!--
-this file: GPLv2
-zer0Kerbal-->
+<!-- this file: GPLv2 BY zer0Kerbal-->
