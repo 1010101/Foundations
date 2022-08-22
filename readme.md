@@ -294,6 +294,21 @@ parts, physics, plugin, config
 [rpm]: https://forum.kerbalspaceprogram.com/index.php?/topic/105821-*/ "Raster Prop Monitor"
 [twk]: https://forum.kerbalspaceprogram.com/index.php?/topic/179030-*/ "TweakScale"
 
+
+[MK]: https://forum.kerbalspaceprogram.com/index.php?/topic/191525*-/ "MoarKerbals"
+[B9S]: https://forum.kerbalspaceprogram.com/index.php?/topic/190870*-/ "B9 Stock Switches"
+[BIO]: https://forum.kerbalspaceprogram.com/index.php?/topic/191426*-/ "Biomatic"
+[SDS]: https://forum.kerbalspaceprogram.com/index.php?/topic/191719*-/ "Stork Delivery System (SDS)"
+[BOOM]: https://forum.kerbalspaceprogram.com/index.php?/topic/192938*-/ "KaboOom!"
+[GOLD]: https://forum.kerbalspaceprogram.com/index.php?/topic/203990*-/ "[The Gold Standard! (GOLD)"
+[KDVA]: http://forum.kerbalspaceprogram.com/index.php?/topic/202945*-/ "Keridian Dynamics Vessel Assembly (KDVA)"
+[KGX]: https://forum.kerbalspaceprogram.com/index.php?/topic/192696*-/ "KGEx (KGX)"
+[KPLX]: https://forum.kerbalspaceprogram.com/index.php?/topic/202749*-/ "Komplexity (KMPX)"
+[NSSC]: https://forum.kerbalspaceprogram.com/index.php?/topic/191504*-/ "Not So SimpleConstructon!"
+[SCON!]: https://forum.kerbalspaceprogram.com/index.php?/topic/191424*-/ "SimpleConstructon!"
+[SLIF!]: https://forum.kerbalspaceprogram.com/index.php?/topic/191526*-/ "SimpleLife!"
+[SLOG!]: https://forum.kerbalspaceprogram.com/index.php?/topic/191045*-/ "SimpleLogistics!"
+
 <!-- financial support -->
 [PAYPAL:img]: https://img.shields.io/badge/Buy%20me%20some%20-LFO-BADA55?style=for-the-badge&logo=paypal&labelColor=FFDD00/ "PayPal"
 [PAYPAL:url]: https://www.paypal.com/donate?hosted_button_id=DC22YHMEJREKL/ "PayPal"
@@ -331,8 +346,9 @@ parts, physics, plugin, config
 [twitter]: https://twitter.com/zer0Kerbal
 [youtube]: https://www.youtube.com/channel/UCp9c8IaK4Gjgfj3O9QxrbDw
 
-[Sparkle]: https://forum.kerbalspaceprogram.com/index.php?/profile/102159-*/ "Sparkle"
-[4x4cheesecake]: https://forum.kerbalspaceprogram.com/index.php?/profile/103696-*/ "4x4cheesecake"
+[Sparkle]: https://forum.kerbalspaceprogram.com/index.php?/profile/91081-*/ "Sparkle"
+[4x4cheesecake]: https://forum.kerbalspaceprogram.com/index.php?/profile/187982-*/ "4x4cheesecake"
+[lisias]: https://forum.kerbalspaceprogram.com/index.php?/profile/187168-*/ "Lisias"
 [zer0Kerbal]: https://forum.kerbalspaceprogram.com/index.php?/profile/190933-*/ "zer0Kerbal"
 
 ---
@@ -350,3 +366,20 @@ Track progress: issues [here][MOD:issue] and projects [here](https://github.com/
 
 [IMG:hero:0]: https://i.imgur.com/DVDdgU1.png
 [IMG:hero:1]: https://i.imgur.com/y0vd6WS.png
+
+
+<!-- images -->
+[IMG:part:0]: https://github.com/zer0Kerbal/Foundations/blob/master/GameData/KGEx/Foundations/Parts/@thumbs/foundations-1x1_icon.png?raw=true "Foundation Structural (M-1x1)"
+[IMG:partinfo:0]: https://github.com/zer0Kerbal/Foundations/blob/master/img/1x1.png?raw=true "Foundation Structural (M-1x1)"
+[IMG:part:1]: https://github.com/zer0Kerbal/Foundations/blob/master/GameData/KGEx/Foundations/Parts/@thumbs/foundations-2x2_icon.png?raw=true "Foundation Structural (M-2x2)"
+[IMG:partinfo:1]: https://github.com/zer0Kerbal/Foundations/blob/master/img/2x2.png?raw=true "Foundation Structural (M-2x2)"
+[IMG:action:0]: https://github.com/zer0Kerbal/Foundations/blob/master/img/attach.png?raw=true "Foundations PAW/RMB"
+
+[IMG:hero:0]: https://media.forgecdn.net/avatars/429/347/637664091078128669.png
+[IMG:hero:1]: https://via.placeholder.com/540x240png/000000/ffffff?text=Jeb%20wants%20this
+[IMG:hero:2]: https://via.placeholder.com/540x240png/000000/ffffff?text=Bill%20wants%20this
+[IMG:hero:3]: https://raw.githubusercontent.com/zer0Kerbal/Foundations/master/img/M%C3%BCnDozer.png "Bob wants his MünDozer to not float away"
+[IMG:hero:4]: https://via.placeholder.com/540x240png/000000/ffffff?text=Val%20wants%20this
+[IMG:hero:5]: https://via.placeholder.com/540x240png/000000/ffffff?text=Val%20wants%20this
+[IMG:hero:6]: https://via.placeholder.com/800x400png/21970f/ff0000?text=Foundations
+
