@@ -10,7 +10,10 @@
 | spacedock  | (https://spacedock.info/mod/3091)                                 |
 | ckan       | Foundations                                                       |
 
-## Version beta 0.1.3.37
+## Version 0.1.3.37-beta `<Brushing off the Construction Dust>` edition
+
+* 10 Aug 2021
+* Released for Kerbal Space Program 1.9.1
 
 Changes:
 FULL localization implemented
