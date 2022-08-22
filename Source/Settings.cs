@@ -1,92 +1,67 @@
-﻿using System;
+﻿// Game Settings (Settings.cs) 1.0.0.0
+// Foundations (FND)
+// created: 
+// updated: 30 Aug 2021
+
+using System;
 using UnityEngine;
 using System.Collections.Generic;
 using System.Collections;
 using System.Reflection;
+using KSP.Localization;
 
-// This will add a tab to the Stock Settings in the Difficulty settings called "On Demand Fuel Cells"
+// This will add a tab to the Stock Settings in the Difficulty settings called "Foundations"
 // To use, reference the setting using the following:
 //
-//  HighLogic.CurrentGame.Parameters.CustomParams<ODFC_Options>().needsECtoStart
+//  HighLogic.CurrentGame.Parameters.CustomParams<Foundations_Options>().needsECtoStart
 //
 // As it is set up, the option is disabled, so in order to enable it, the player would have
 // to deliberately go in and change it
 //
-namespace FieldTrainingFacility
+namespace Foundations
 {
-    // http://forum.kerbalspaceprogram.com/index.php?/topic/147576-modders-notes-for-ksp-12/#comment-2754813
-    // search for "Mod integration into Stock Settings
 
-    public class ODFC_Options : GameParameters.CustomParameterNode
+    /// <summary>Game Settings</summary>
+    /// http://forum.kerbalspaceprogram.com/index.php?/topic/147576-modders-notes-for-ksp-12/#comment-2754813
+    /// search for "Mod integration into Stock Settings
+    /// <seealso cref="GameParameters.CustomParameterNode" />
+    public class Foundations_Options : GameParameters.CustomParameterNode
     {
-        public override string Title { get { return "Default Settings"; } }
+        /// <summary>Game Settings: Title</summary>
+        public override string Title { get { return "#FND-Title"; } }
+        /// <summary>Game Settings: GameMode </summary>
         public override GameParameters.GameMode GameMode { get { return GameParameters.GameMode.ANY; } }
-        public override string Section { get { return "ODFCr"; } }
-        public override string DisplaySection { get { return "On Demand Fuel Cells"; } }
+        /// <summary>Game Settings: Section (name) </summary>
+        public override string Section { get { return "#FND-Settings-Section"; } }
+        /// <summary>Game Settings: DisplaySection (name)</summary>
+        public override string DisplaySection { get { return "#FND-Settings-DisplaySection"; } }
+        /// <summary>Game Settings: SectionOrder (1)</summary>
         public override int SectionOrder { get { return 1; } }
+        /// <summary>Game Settings: HasPresets (false)</summary>
+        public override bool HasPresets { get { return false; } }
 
+        // Config Settings
+        /// <summary>FoundationsXDebug = false
+        /// tells module if it is to record extra debug information in game log. (KSP.log)/// </summary>
+        [GameParameters.CustomParameterUI("#FND-Settings-S01", toolTip = "#FND-Settings-S01-Tip", newGameOnly = false, unlockedDuringMission = true)]
+        public bool foundationsXDebug = false;
 
-        [GameParameters.CustomParameterUI("Require EC to run",
-            toolTip = "if set to yes, the fuel cells will 'stall' if the vessels total electric charge reaches zero and will not function until vessel electric charge is above zero.",
-            newGameOnly = false,
-            unlockedDuringMission = true
-            )]
-        public bool needsECtoStart = false;
+        /// <summary>FoundationsXDebug</summary>
+        // public bool FoundationsXDebug { get => foundationsXDebug; set => foundationsXDebug = value; }
 
-        [GameParameters.CustomParameterUI("Auto Fuel Mode Switch",
-            toolTip = "if current fuel mode becomes fuel deprived, will 'hunt' or 'search' for a fuel mode that has fuel.",
-            newGameOnly = false,
-            unlockedDuringMission = true)]
-        public bool autoSwitch = true;
-
-        [GameParameters.CustomParameterUI("PAW Color",
-            toolTip = "allow color coding in ODC PAW (part action window) / part RMB (right menu button).",
-            newGameOnly = false,
-            unlockedDuringMission = true)]
+        /// <summary>Tells module if it is allowed to use colors in the RMB/PAW</summary>
+        [GameParameters.CustomParameterUI("#FND-Settings-S02", toolTip = "#FND-Settings-S02-Tip", newGameOnly = false, unlockedDuringMission = true)]
         public bool coloredPAW = true;
 
-        // If you want to have some of the game settings default to enabled,  change 
-        // the "if false" to "if true" and set the values as you like
+        /// <summary>ColoredPAW</summary>
+        //public bool ColoredPAW { get => coloredPAW; set => coloredPAW = value; }
 
 
-#if true
-        public override bool HasPresets { get { return true; } }
-        public override void SetDifficultyPreset(GameParameters.Preset preset)
-        {
-            Debug.Log("Setting difficulty preset");
-            switch (preset)
-            {
-                case GameParameters.Preset.Easy:
-                    needsECtoStart = false;
-                    autoSwitch = true;
-                    break;
+        //public override void SetDifficultyPreset(GameParameters.Preset preset) { }
 
-                case GameParameters.Preset.Normal:
-                    needsECtoStart = false;
-                    autoSwitch = true;
-                    break;
-
-                case GameParameters.Preset.Moderate:
-                    needsECtoStart = true;
-                    autoSwitch = true;
-                    break;
-
-                case GameParameters.Preset.Hard:
-                    needsECtoStart = true;
-                    autoSwitch = false;
-                    break;
-            }
-        }
-
-#else
-        public override bool HasPresets { get { return false; } }
-        public override void SetDifficultyPreset(GameParameters.Preset preset) { }
-#endif
-
-        public override bool Enabled(MemberInfo member, GameParameters parameters) { return true; }
-        public override bool Interactible(MemberInfo member, GameParameters parameters) { return true; }
-        public override IList ValidValues(MemberInfo member) { return null; }
+        //public override bool Enabled(MemberInfo member, GameParameters parameters) { return true; }
+        //public override bool Interactible(MemberInfo member, GameParameters parameters) { return true; }
+        //public override IList ValidValues(MemberInfo member) { return null; }
     }
 }
 
-   
