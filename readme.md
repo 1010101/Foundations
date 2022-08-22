@@ -23,6 +23,67 @@ adopted with *express* permission and brought to you by *KerbSimpleCo*
 
 <img src="https://raw.githubusercontent.com/zer0Kerbal/Foundations/master/img/HeroLogo_1920x1920.png" alt="Foundations Hero" width="50%" height="50%">
 
+### Preamble by [`Sparkle`][sparkle]
+
+> Foundations is a mod which lets you anchor structures to the ground, just like a [real building](https://en.wikipedia.org/wiki/Foundation_(engineering)). It's goal is to help you set up more permanent buildings at your mun bases, around Kerbin or anywhere else that has land.
+
+
+### How do I use it?  
+
+The mod currently adds two new parts to the structural tab. These parts are based on the stock structural panels and are intended to be the foundation of any structures you want to build. Right clicking on them while they are touching the ground will give you the option to attach them, fixing them in place.
+
+### Parts (two)  
+
+###### `Foundation Structural (M-1x1)`:  
+> ![Foundation Structural (M-1x1]:][IMG:part:0] ![PartInfo][IMG:partinfo:0]  
+
+###### `Foundation Structural (M-2x2]`:  
+> ![Foundation Structural (M-2x2):][IMG:part:1] ![PartInfo][IMG:partinfo:1]   
+
+### Attach/Detach action:
+
+> ![Foundations PAW/RMB][IMG:action:0]  
+
+### Why do I want this?  
+
+> Jeb wants this because he's clumsy with his EVA suit and every time he bumps the fuel depot on Gilly it flies away...  
+> ![example image needed][IMG:hero:1]
+
+> Bill wants this because his new crane slides around when he tries to pick up that 30 ton fuel tank...
+> ![example image needed][IMG:hero:2]
+
+> Bob wants this because he's designed his ultimate kethane refinery for the Mun base and he needs it to stay put when Jeb tries to refuel his Mundozer...
+> ![Mundozer example image needed][IMG:hero:3]  
+
+> Why does Val want this? best answer (subjective) with image goes here-> 
+> ![Val wants...][IMG:hero:4]
+
+### Frequently Asked Questions (FAQs)
+
+##### How solid are the foundations?  
+
+  > The foundations are implemented using a physics joint and are intended to behave somewhat like real foundations. That means for reasonable loads they will be very solid but for larger loads, particularly unbalanced ones, you're going to need to think just a little more. I put together some examples [here example image needed][IMG:hero:5]. One of my main concerns was making sure they save and reload without any movement or slippage.
+
+##### Will the foundations break?  
+
+  > The joint holding them in place does have break forces set on it so yes. They are set high enough that you should be doing something quite unreasonable before this happens, and will probably break something else first. The larger foundation has relatively larger break forces as well.  
+
+##### How do I get my structure to the right place?  
+
+  > Currently that is entirely up to you. At my Gilly base gravity is so low I use RCS to fly my bases[them] into place Starcraft 2 style. On planets with more gravity you could use a large rover, or rockets, or winch it there with KAS or... be creative! If you have any ideas about such functionality that would work well in the mod do leave a suggestion.  
+
+##### Can I make my own foundation parts?  
+
+  > If you're familiar with part config files this is very easy. Note that any parts you make are your responsibility and I wont be officially supporting them. Look in `*GameData/KGEx/Foundations/Parts/foundation-1x1.cfg*` to see how the parts are put together, all that makes it a foundation part is the MODULE block at the end. Try something crazy like adding the module to landing legs... actually that sounds awesome, be right back... Submit your parts for possible future inclusion!
+
+##### What are your future plans?  
+
+  > I would like to create some more visually effective parts, particularly ones that deal nicely with building on sloped surfaces. Other than that I'm open to suggestions and Github PR's... where do you want this to go?
+> * KIS/KAS patches  
+> * Breaking Ground integration ()
+> * Additional Localizations  
+> * Additional Mod Integrations
+
 ### See More
 
 * See our [Parts Catalog][MOD:parts] for part pictures
