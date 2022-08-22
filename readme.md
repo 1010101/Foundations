@@ -17,7 +17,7 @@ An addon for Kerbal Space Program which allows establishing a connection between
 
 
 
-## By [`zer0Kerbal`][zer0Kerbal], originally by [`Sparkle`][sparkle] then by [`4x4cheesecake`][4x4cheesecake]
+## By [`zer0Kerbal`][zer0Kerbal], originally by [`Sparkle`][sparkle]
 
 adopted with *express* permission and brought to you by *KerbSimpleCo*
 
@@ -39,8 +39,6 @@ adopted with *express* permission and brought to you by *KerbSimpleCo*
 > * Compatibility patches
 > * Contracts for these glorious parts
 > * Variant Textures
-> * Converting from FireSpitter to Stock and/or KSPWheel  
-> * Model updates to Unity 2019
 > * Marketing Images and Videos such as hero shots, animated gifs, short highlight
 > * Have a request? Glad to have them, kindly submit through [GitHub][MOD:issue].
 
@@ -58,8 +56,7 @@ adopted with *express* permission and brought to you by *KerbSimpleCo*
 ### Installation Directions [^1]
 
 ***Use***
-  CurseForge/OverWolf App (currently does not install dependencies)  
-
+  CurseForge/OverWolf App (currently does not install dependencies)
   <a href="https://download.curseforge.com/">
     <img src="https://www.overwolf.com/brand-guidelines/img/logo2.svg" alt="CurseForge/OverWolf App" width="15%" height="15%">
 </a>
@@ -79,22 +76,18 @@ or [![CKAN][CKAN:img]][ckan]
 ### Dependencies
 
 * [Kerbal Space Program][KSP:url] [![Kerbal Space Program][KSP:shd]][KSP:url] [^2]
-
-### Supports
-
 * Either [^3]
   * [Module Manager][mm]
   * [Module Manager /L][mml]
 
+### Supports
+
 * [On Demand Fuel Cells (ODFC)][ODFC]
-* [Firespitter][fs] for fully functioning wheels. may invoke bouts of dizziness.
-* [NEAR-FAR][far]
-* [Restock][restock]
 * [GPO (Goo Pumps & Oils') Speed Pump (GPO)][GPO]
 
 ### Tags
 
-parts, config
+parts, physics, plugin, config
 
 <div style="border:0.5px solid Tomato; background-color: #BADA55; color: #FF0000; text-align:center">
   <p><b>red box below is a link to forum post on how to get support</b></p>
@@ -111,22 +104,16 @@ parts, config
 
 ### Legal Mumbo Jumbo (License *provenance*)
 
-#### Current (2) - [`zer0Kerbal`][zer0Kerbal]
+#### Current (1) - [`zer0Kerbal`][zer0Kerbal]
 
 > Forum: [Thread][MOD:forum] - Source: [GitHub][GITHUB:url]  
 > License: [![License][LIC:shd]][LIC:url] ![License][LIC:log]
 >
 > ##### Disclaimer(s)
 >
-> ***All bundled mods are distributed under their own licenses***  
-> ***All art assets (textures, models, animations, sounds) are distributed under their own licenses***
+> ***All bundled mods are distributed under their own licenses***> ***All art assets (textures, models, animations, sounds) are distributed under their own licenses***
 
 ##### see [Notices.md][MOD:notic] for more *legal mumbo jumbo*
-
-#### Original (1) - Author: [`4x4cheesecake`][4x4cheesecake]
-
-> Forum: [Thread][MOD:1:thread] - Download: [GitHub][MOD:1:dnload] - Source: [GitHub][MOD:1:source]  
-> License: [![License][LIC:1:shd]][LIC:1:url] ![License][LIC:1:log]
 
 #### Original (0) - Author: [`Sparkle`][sparkle]
 
@@ -135,34 +122,19 @@ parts, config
 
 ---
 
-### DONATIONS: How to support this and other great mods by [`zer0Kerbal`][zer0Kerbal]  
-
+### DONATIONS: How to support this and other great mods by [`zer0Kerbal`][zer0Kerbal]
 > ***Completely voluntary, absolutely amazing, and really does help me out a lot!***
-> quote from <a href="https://forum.kerbalspaceprogram.com/index.php?/profile/32393-*/"><img border="0" alt="cybutek" src="https://kerbal-forum-uploads.s3.us-west-2.amazonaws.com/monthly_2020_06/kappa-kerbal-anarchy.thumb.png.673a2f6f7b36cc60a35c24efef217246.png" width="25px" height="25px"> >cybutek</a> creator of <a href="https://forum.kerbalspaceprogram.com/index.php?/topic/17833-130-*/" alt="Kerbal Engineer Redux (KER)"> Kerbal Engineer</a>
+> quote from <a href="https://forum.kerbalspaceprogram.com/index.php?/profile/32393-*/"><img border="0" alt="cybutek" src="https://kerbal-forum-uploads.s3.us-west-2.amazonaws.com/monthly_2020_06/kappa-kerbal-anarchy.thumb.png.673a2f6f7b36cc60a35c24efef217246.png" width="25px" height="25px"> cybutek</a> creator of <a href="https://forum.kerbalspaceprogram.com/index.php?/topic/17833-130-*/" alt="Kerbal Engineer Redux (KER)"> Kerbal Engineer</a>
 
 [![Support][PAYPAL:img]][PAYPAL:url] [![Github Sponsor][GSPONS:img]][GSPONS:url] [![Patreon][PATREON:img]][PATREON:url] [![Buy zer0Kerbal a snack][BMCC:img]][BMCC:url]
 
 *and it is true.*
 <!-- mod links -->
-
-
-
-<!--- original mod stuff -->
-
-
-[sparkle]: https://forum.kerbalspaceprogram.com/index.php?/profile/91081-*/ "Sparkle"
-[4x4cheesecake]:  "4x4cheesecake"
-[zer0Kerbal]: https://forum.kerbalspaceprogram.com/index.php?/profile/190933-*/ "zed'K"  
-
-[IMG:hero:0]: https://i.imgur.com/DVDdgU1.png
-[IMG:hero:1]: https://i.imgur.com/y0vd6WS.png
-
-<!-- this file: GPLv2 BY zer0Kerbal-->
 [MOD:attr]: https://zer0kerbal.github.io/Foundations/Attributions "Attribution"
 [MOD:chlog]: https://raw.githubusercontent.com/zer0Kerbal/Foundations/master/changelog.md  "Changelog"
 [MOD:contr]: https://github.com/zer0Kerbal/.github/blob/master/.github/CONTRIBUTING.md "Contributing"
 [MOD:discu]: https://github.com/zer0Kerbal/Foundations/discussions "Discussions"
-[MOD:forum]: https://forum.kerbalspaceprogram.com/index.php?/topic/192742-*/ "Foundations Forum Thread"
+[MOD:forum]: https://forum.kerbalspaceprogram.com/index.php?/topic/209463-*/ "Foundations Forum Thread"
 [MOD:issue]: https://github.com/zer0Kerbal/Foundations/issues "Issues"
 [MOD:licns]: https://github.com/zer0Kerbal/Foundations/blob/master/LICENSE "Github License"
 [MOD:markt]: https://zer0kerbal.github.io/Foundations/Marketing "Marketing Slicks"
@@ -176,30 +148,18 @@ parts, config
 [MOD:pages:shd]: https://img.shields.io/badge/GitHub-Pages-white?style=plastic&labelColor=9cf&logoColor=181717&logo=github "GitHub IO"
 
 <!--- mod provenance -->
-[MOD:1:dnload]: https://www.dropbox.com/s/85og3xdhark7com/MOD-NAME5.rar?dl=0 "GitHub"
-[MOD:1:source]: https://www.dropbox.com/s/85og3xdhark7com/MOD-NAME5.rar?dl=0 "GitHub"
-[MOD:1:thread]: https://forum.kerbalspaceprogram.com/index.php?/topic/64520-*/ "KSP Forum"
-
 [MOD:0:dnload]: http://happyminion.com/files/Foundations-0.2.zip "File"
 [MOD:0:source]: http://happyminion.com/files/Foundations-0.2.zip "File"
-[MOD:0:thread]: https://forum.kerbalspaceprogram.com/index.php?/topic/64520-*/ "KSP Forum"
+[MOD:0:thread]: https://forum.kerbalspaceprogram.com/index.php?/topic/51430-*/ "KSP Forum"
 
 <!--- license provenance -->
-[LIC::url]: https://choosealicense.com/licenses/bsd-2-clause/ "SimpleBSD-2-Clause"
-[LIC::log]:   https://i.postimg.cc/bvjfsMP5/MIT-17x17.png "MIT"  
-[LIC::shd]: https://img.shields.io/badge/License-Expat/MIT-3DA639?labelColor=black&logoColor=3DA639&logo=OpenSourceInitiative&style=plastic "Expat-MIT"
+[LIC:0:url]: https://mit-license.org/ "Expat-MIT"
+[LIC:0:log]: https://i.postimg.cc/bvjfsMP5/MIT-17x17.png "Expat-MIT"
+[LIC:0:shd]: https://img.shields.io/badge/License-Expat/MIT-3DA639?labelColor=white&logoColor=3DA639&logo=OpenSourceInitiative&style=plastic "Expat-MIT"
 
-
-
-[LIC:0:url]: https://www.gnu.org/licenses/gpl-2.0-standalone.html "GPL-2.0"
-[LIC:0:log]: https://i.postimg.cc/9FrwMgK6/GPL-17x17.png "GPL-2.0"
-[LIC:0:shd]: https://img.shields.io/badge/License-GPL-2.0-A42E2B?style=plastic&labelColor=white&logoColor=A42E2B&logo=gnu "GPL-2.0"
-
-<!-->
-[LIC:0:url]: http://www.wtfpl.net/about/ "WTFPL"
-[LIC:0:log]: http://www.wtfpl.net/wp-content/uploads/2012/12/wtfpl-badge-1.png "WTFPL"
-[LIC:0:shd]: https://img.shields.io/badge/License-WTFPL-white?style=plastic&labelColor=purple "WTFPL"
--->
+[LIC:url]: https://www.gnu.org/licenses/gpl-2.0-standalone.html "GPL-2.0"
+[LIC:log]: https://i.postimg.cc/9FrwMgK6/GPL-17x17.png "GPL-2.0"
+[LIC:shd]: https://img.shields.io/badge/License-GPL-2.0-A42E2B?style=plastic&labelColor=white&logoColor=A42E2B&logo=gnu "GPL-2.0"
 
 <!--- CKAN -->
 [CKAN:img]: https://i.postimg.cc/x8XSVg4R/sj507JC.png "CKAN"
@@ -276,8 +236,8 @@ parts, config
 [twitter]: https://twitter.com/zer0Kerbal
 [youtube]: https://www.youtube.com/channel/UCp9c8IaK4Gjgfj3O9QxrbDw
 
-[Sparkle]: https://forum.kerbalspaceprogram.com/index.php?/profile/102159-*/ "AUTH-NAME"
-[4x4cheesecake]: https://forum.kerbalspaceprogram.com/index.php?/profile/103696-*/ "AUTH-NAME:1"
+[Sparkle]: https://forum.kerbalspaceprogram.com/index.php?/profile/102159-*/ "Sparkle"
+[4x4cheesecake]: https://forum.kerbalspaceprogram.com/index.php?/profile/103696-*/ "4x4cheesecake"
 [zer0Kerbal]: https://forum.kerbalspaceprogram.com/index.php?/profile/190933-*/ "zer0Kerbal"
 
 ---
@@ -293,3 +253,5 @@ Track progress: issues [here][MOD:issue] and projects [here](https://github.com/
 [^2]: ***may*** work on other versions (YMMV)  
 [^3]: *Be Kind: Lithobrake, not jakebrake! Keep your Module Manager up to date!*  
 
+[IMG:hero:0]: https://i.imgur.com/DVDdgU1.png
+[IMG:hero:1]: https://i.imgur.com/y0vd6WS.png
