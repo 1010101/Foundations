@@ -104,7 +104,7 @@ parts, physics, plugin, config
 
 ### Legal Mumbo Jumbo (License *provenance*)
 
-#### Current (1) - [`zer0Kerbal`][zer0Kerbal]
+#### Current (2) - [`zer0Kerbal`][zer0Kerbal]
 
 > Forum: [Thread][MOD:forum] - Source: [GitHub][GITHUB:url]  
 > License: [![License][LIC:shd]][LIC:url] ![License][LIC:log]
@@ -114,6 +114,11 @@ parts, physics, plugin, config
 > ***All bundled mods are distributed under their own licenses***> ***All art assets (textures, models, animations, sounds) are distributed under their own licenses***
 
 ##### see [Notices.md][MOD:notic] for more *legal mumbo jumbo*
+
+#### Original (1) - Author: [`4x4cheesecake`][4x4cheesecake]
+
+> Forum: [Thread][MOD:1:thread] - Download: [CurseForge][MOD:1:dnload] - Source: [CurseForge][MOD:1:source]  
+> License: [![License][LIC:1:shd]][LIC:1:url] ![License][LIC:1:log]
 
 #### Original (0) - Author: [`Sparkle`][sparkle]
 
@@ -148,11 +153,19 @@ parts, physics, plugin, config
 [MOD:pages:shd]: https://img.shields.io/badge/GitHub-Pages-white?style=plastic&labelColor=9cf&logoColor=181717&logo=github "GitHub IO"
 
 <!--- mod provenance -->
+[MOD:1:dnload]: https://github.com/4x4cheesecake/Foundations-Revived "File"
+[MOD:1:source]: https://github.com/4x4cheesecake/Foundations-Revived "File"
+[MOD:1:thread]: https://forum.kerbalspaceprogram.com/index.php?/topic/51430-*/ "KSP Forum"
+
 [MOD:0:dnload]: http://happyminion.com/files/Foundations-0.2.zip "File"
 [MOD:0:source]: http://happyminion.com/files/Foundations-0.2.zip "File"
 [MOD:0:thread]: https://forum.kerbalspaceprogram.com/index.php?/topic/51430-*/ "KSP Forum"
 
 <!--- license provenance -->
+[LIC:1:url]: https://mit-license.org/ "Expat-MIT"
+[LIC:1:log]: https://i.postimg.cc/bvjfsMP5/MIT-17x17.png "Expat-MIT"
+[LIC:1:shd]: https://img.shields.io/badge/License-Expat/MIT-3DA639?labelColor=white&logoColor=3DA639&logo=OpenSourceInitiative&style=plastic "Expat-MIT"
+
 [LIC:0:url]: https://mit-license.org/ "Expat-MIT"
 [LIC:0:log]: https://i.postimg.cc/bvjfsMP5/MIT-17x17.png "Expat-MIT"
 [LIC:0:shd]: https://img.shields.io/badge/License-Expat/MIT-3DA639?labelColor=white&logoColor=3DA639&logo=OpenSourceInitiative&style=plastic "Expat-MIT"
