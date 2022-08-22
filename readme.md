@@ -6,6 +6,7 @@ updated: 17 Aug 2022 -->
 <!--this file: CC BY-ND 4.0 by zer0Kerbal-->
 
 [![Foundations][MOD:shd:latest]][MOD:forum] [![KSP version][KSP:shd]][KSP:url]  [![License][LIC:shd]][LIC:url]  
+[![MOD-NAME][MOD:shd:latest]][MOD:forum] [![KSP version][KSP:shd]][KSP:url]  [![License][LIC:shd]][LIC:url]  
 [![Curseforge][CURSFG:shd]][CURSFG:url] [![GitHub][GITHUB:shd]][GITHUB:url] [![SpaceDock][SPCDCK:shd]][SPCDCK:url] [![CKAN][CKAN:shd]][ckan]   
 [![Pages][MOD:pages:shd]][MOD:pages]
 
