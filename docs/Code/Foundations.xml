@@ -4,5 +4,91 @@
         <name>Foundations</name>
     </assembly>
     <members>
+        <member name="F:Foundations.Foundation.info">
+            <summary>Module information shown in editors</summary>
+        </member>
+        <member name="M:Foundations.Foundation.EventAttach">
+            <summary>Called when the user requests attachment via the GUI.</summary>
+        </member>
+        <member name="M:Foundations.Foundation.EventDetach">
+            <summary>Called when the user requests detachment via the GUI.</summary>
+        </member>
+        <member name="M:Foundations.Foundation.ToggleAttachment(KSPActionParam)">
+            <summary>Called when the user toggle attachment via the GUI.</summary>
+        </member>
+        <member name="M:Foundations.Foundation.SwitchEventState">
+            <summary>Switches the state of the event.</summary>
+        </member>
+        <member name="M:Foundations.Foundation.OnUpdate">
+            <summary>OnUpdate:Clean up the PAW if the part doesn't touch the ground</summary>
+        </member>
+        <member name="M:Foundations.Foundation.Attach">
+            <summary>Updates the game state to record that we are now attached.</summary>
+        </member>
+        <member name="M:Foundations.Foundation.Detach">
+            <summary>Updates the game state to record that we are now detached.</summary>
+        </member>
+        <member name="M:Foundations.Foundation.OnPartUnpack">
+            <summary>Called when the part is ready to play with the rest of the physics world.</summary>
+        </member>
+        <member name="M:Foundations.Foundation.OnJointBreak(System.Single)">
+            <summary>Called if you our joint breaks - i.e. we get torn out of the ground.</summary>
+        </member>
+        <member name="M:Foundations.Foundation.CreateAttachment">
+            <summary>Creates the physical joint constraining our position.</summary>
+        </member>
+        <member name="M:Foundations.Foundation.DestroyAttachment">
+            <summary>Removes the physical joint constraining our position.</summary>
+        </member>
+        <member name="M:Foundations.Foundation.Message(System.String,System.Object[])">
+            <summary>Messages to the screen in the specified format.</summary>
+            <param name="format">The format.</param>
+            <param name="args">The arguments.</param>
+        </member>
+        <member name="M:Foundations.Foundation.Dlog(System.String,System.Boolean)">
+            <summary>Add messages to the log. Prepends "Foundations v{0}]: ", Version.Text</summary>
+            <param name="logMsg">The message.</param>
+            <param name="xDebug">require DEBUG setting to create log entry</param>
+        </member>
+        <member name="M:Foundations.Foundation.DlogWarning(System.String,System.Boolean)">
+            <summary>Add messages to the log. Prepends "Foundations v{0}]: ", Version.Text</summary>
+            <param name="logMsg">The message.</param>
+            <param name="xDebug">require DEBUG setting to create log entry</param>
+        </member>
+        <member name="M:Foundations.Foundation.GetInfo">
+            <summary>Formats the information for the part information in the editors.</summary>
+            <returns>info</returns>
+        </member>
+        <member name="T:Foundations.Foundations_Options">
+            <summary>Game Settings</summary>
+            http://forum.kerbalspaceprogram.com/index.php?/topic/147576-modders-notes-for-ksp-12/#comment-2754813
+            search for "Mod integration into Stock Settings
+            <seealso cref="T:GameParameters.CustomParameterNode" />
+        </member>
+        <member name="P:Foundations.Foundations_Options.Title">
+            <summary>Game Settings: Title</summary>
+        </member>
+        <member name="P:Foundations.Foundations_Options.GameMode">
+            <summary>Game Settings: GameMode </summary>
+        </member>
+        <member name="P:Foundations.Foundations_Options.Section">
+            <summary>Game Settings: Section (name) </summary>
+        </member>
+        <member name="P:Foundations.Foundations_Options.DisplaySection">
+            <summary>Game Settings: DisplaySection (name)</summary>
+        </member>
+        <member name="P:Foundations.Foundations_Options.SectionOrder">
+            <summary>Game Settings: SectionOrder (1)</summary>
+        </member>
+        <member name="P:Foundations.Foundations_Options.HasPresets">
+            <summary>Game Settings: HasPresets (false)</summary>
+        </member>
+        <member name="F:Foundations.Foundations_Options.foundationsXDebug">
+            <summary>FoundationsXDebug = false
+            tells module if it is to record extra debug information in game log. (KSP.log)/// </summary>
+        </member>
+        <member name="F:Foundations.Foundations_Options.coloredPAW">
+            <summary>Tells module if it is allowed to use colors in the RMB/PAW</summary>
+        </member>
     </members>
 </doc>
