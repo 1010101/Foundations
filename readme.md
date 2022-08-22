@@ -5,8 +5,8 @@ updated: 17 Aug 2022 -->
 
 <!--this file: CC BY-ND 4.0 by zer0Kerbal-->
 
-[![Foundations][MOD:shd:latest]][MOD:forum] [![KSP version][KSP:shd]][KSP:url]  [![License][LIC:shd]][LIC:url]  
-[![Curseforge][CURSFG:shd]][CURSFG:url] [![GitHub][GITHUB:shd]][GITHUB:url] [![SpaceDock][SPCDCK:shd]][SPCDCK:url] [![CKAN][CKAN:shd]][ckan]   
+[![Foundations][MOD:shd:latest]][MOD:forum] [![KSP version][KSP:shd]][KSP:url[![License][LIC:shd]][LIC:url
+[![Curseforge][CURSFG:shd]][CURSFG:url] [![GitHub][GITHUB:shd]][GITHUB:url] [![SpaceDock][SPCDCK:shd]][SPCDCK:url] [![CKAN][CKAN:shd]][ckan 
 [![Pages][MOD:pages:shd]][MOD:pages]
 
 
@@ -35,14 +35,14 @@ The mod currently adds two new parts to the structural tab. These parts are base
 ### Parts (two)  
 
 ###### `Foundation Structural (M-1x1)`:  
-> ![Foundation Structural (M-1x1]:][IMG:part:0] ![PartInfo][IMG:partinfo:0]  
+> ![Foundation Structural (M-1x1]:][IMG:part:0] ![PartInfo][IMG:partinfo:0
 
 ###### `Foundation Structural (M-2x2]`:  
-> ![Foundation Structural (M-2x2):][IMG:part:1] ![PartInfo][IMG:partinfo:1]   
+> ![Foundation Structural (M-2x2):][IMG:part:1] ![PartInfo][IMG:partinfo:1 
 
 ### Attach/Detach action:
 
-> ![Foundations PAW/RMB][IMG:action:0]  
+> ![Foundations PAW/RMB][IMG:action:0
 
 ### Why do I want this?  
 
@@ -53,7 +53,7 @@ The mod currently adds two new parts to the structural tab. These parts are base
 > ![example image needed][IMG:hero:2]
 
 > Bob wants this because he's designed his ultimate kethane refinery for the Mun base and he needs it to stay put when Jeb tries to refuel his Mundozer...
-> ![Mundozer example image needed][IMG:hero:3]  
+> ![Mundozer example image needed][IMG:hero:3
 
 > Why does Val want this? best answer (subjective) with image goes here-> 
 > ![Val wants...][IMG:hero:4]
@@ -108,6 +108,7 @@ The mod currently adds two new parts to the structural tab. These parts are base
 ### Localization
 
 >* ![English][EN] English
+>* ![Français][FR][FR] French (Français)
 >* ***your translation here***
 >
 > HELP WANTED - See the [README in the Localization folder][lreadme] or the [Quickstart Guide][qstart] for instructions for adding or improving translations. [GitHub][GitHub:url] push is the best way to contribute. *Additions and corrections welcome!*
@@ -137,6 +138,9 @@ or [![CKAN][CKAN:img]][ckan]
 ### Dependencies
 
 * [Kerbal Space Program][KSP:url] [![Kerbal Space Program][KSP:shd]][KSP:url] [^2]
+
+## Recommends
+
 * Either [^3]
   * [Module Manager][mm]
   * [Module Manager /L][mml]
@@ -145,6 +149,21 @@ or [![CKAN][CKAN:img]][ckan]
 
 * [On Demand Fuel Cells (ODFC)][ODFC]
 * [GPO (Goo Pumps & Oils') Speed Pump (GPO)][GPO]
+
+### Suggests  
+
+* [SimpleConstructon! (SCON!)][SCON]
+* [SimpleLogistics! (SLOG!)][SLOG]
+* [Not So SimpleConstructon! (NSSC)][NSSC]
+* [Keridian Dynamics Vessel Assembly (KDVA)][KDVA]
+* [The Gold Standard! (GOLD)][GOLD]
+* [Stork Delivery System (SDS)][SDS]
+* [KaboOom! (BOOM][BOOM] another way to not go to space today  
+
+* [Komplexity (KPLX)][KPLX]
+* [MoarKerbals(MOAR)][MK]
+* [Biomatic (BIO)][BIO]
+* [KGEx (KGX)][KGX]
 
 ### Tags
 
@@ -159,15 +178,17 @@ parts, physics, plugin, config
 
 ### Credits and Special Thanks
 
-* [Sparkle][sparkle] for creating this glorious parts addon!
-* [4x4cheesecake][4x4cheesecake] for the picking up where [Sparkle][sparkle] left off
+* [Sparkle][sparkle] for developing this glorious addon!
+* [4x4cheesecake][4x4cheesecake] ] for continuing where [Sparkle][sparkle] left off
+> [`Lisias`][lisias] for the Brazilian-Portuguese (br-pt.cfg) localization!
+> @IBM Watson for French, Italian, Japanese, Korean, Swedish, and Norwegian localization (corrections solicited and welcome!)
 * see [Attribution.md][MOD:attr] for more comprehensive list
 
 ### Legal Mumbo Jumbo (License *provenance*)
 
 #### Current (2) - [`zer0Kerbal`][zer0Kerbal]
 
-> Forum: [Thread][MOD:forum] - Source: [GitHub][GITHUB:url]  
+> Forum: [Thread][MOD:forum] - Source: [GitHub][GITHUB:url
 > License: [![License][LIC:shd]][LIC:url] ![License][LIC:log]
 >
 > ##### Disclaimer(s)
@@ -178,12 +199,12 @@ parts, physics, plugin, config
 
 #### Original (1) - Author: [`4x4cheesecake`][4x4cheesecake]
 
-> Forum: [Thread][MOD:1:thread] - Download: [CurseForge][MOD:1:dnload] - Source: [CurseForge][MOD:1:source]  
+> Forum: [Thread][MOD:1:thread] - Download: [CurseForge][MOD:1:dnload] - Source: [CurseForge][MOD:1:source
 > License: [![License][LIC:1:shd]][LIC:1:url] ![License][LIC:1:log]
 
 #### Original (0) - Author: [`Sparkle`][sparkle]
 
-> Forum: [Thread][MOD:0:thread] - Download: [File][MOD:0:dnload] - Source: [File][MOD:0:source]  
+> Forum: [Thread][MOD:0:thread] - Download: [File][MOD:0:dnload] - Source: [File][MOD:0:source
 > License: [![License][LIC:0:shd]][LIC:0:url] ![License][LIC:0:log]
 
 ---
