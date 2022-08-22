@@ -2,7 +2,7 @@
     "NAME"           : "Foundations (FND)",
     "URL"            : "https://raw.githubusercontent.com/zer0Kerbal/Foundations/master/Foundation.version",
     "DOWNLOAD"       : "https://github.com/zer0Kerbal/Foundations/releases/latest",
-    "CHANGE_LOG_URL" : "https://raw.githubusercontent.com/zer0Kerbal/Foundations/master/Changelog.cfg",
+    "CHANGE_LOG_URL" : "https://raw.githubusercontent.com/zer0Kerbal/Foundations/master/changelog.md",
     "GITHUB" :
     {
         "USERNAME"          : "zer0Kerbal",
