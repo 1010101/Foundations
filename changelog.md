@@ -1,97 +1,89 @@
-﻿// Changelog.cfg v1.1.1.0
-// modname
-// created: 2020 02 25
-// updated: 10 Aug 2021
-KERBALCHANGELOG
-{
-	showChangelog = True
-	modName = modname
-	license = MIT
-	author = zer0Kerbal
-	VERSION
-	{
-		version = 1.8
-		versionName = Audacious Apple 
-		versionDate = 2021-08-10
-		versionKSP = 1.9.1
-		change = zer0Kerbal played with one of his mods
-		change = <b style="color:red">DO A CLEAN INSTALL: DELETE EXISTING THEN RE-INSTALL</b>
-		CHANGE
-		{
-			type = Added
-			change = Localization
-			subChange = added .this/Localization/
-			subChange = added localization (en-us.cfg)
-			subChange = adjusted phrasing a smudge
-		}
-		change = moved art into .this/Assets/
-		change = updated texture pointers in model (original, png, dds included)
-		change = updated part.cfg:
-		change = added explosionPotential
-		CHANGE
-		{
-			change = Changelog, .version, Readme.md
-			subchange = created Changelog.cfg [KERBALCHANGELOG] (.this)
-			subchange = Add license field
-			subchange = Add author node
-			subchange = Add version naming field
-			subChange = added additional fields in .version (might need to tweak urls)
-			subChange = added shields to Readme.md
-		}
-		CHANGE
-		{
-			change = Online
-			subChange = GitHub Repo
-			subChange = created Forum Thread
-			subChange = updated SpaceDock
-			subChange = updated CKAN/NetKAN
-		}
-		CHANGE
-		{
-			change = modernization, polish, update pass on .cfg
-			subChange = large .tga -> .dds ( mb ->  mb)
-			subChange = replaced mesh = with MODEL{}
-			subChange = merged in patches
-			subChange = automated deploy/release process
-			subChange = adjusted nodes (flipped orientation as needed)
-		}
-		CHANGE
-		{
-			change = Adoption by zer0Kerbal
-			subchange = Send Adoption Papers
-			subChange = Post Adoption Notice
-			subChange = gather
-			subChange = verify licenses
-			subChange = look for existing repo/postings
-		}
-	}
-	VERSION
-	{
-		version = 		
-		versionName = Brushing off the Construction Dust
-		change = >>-- adopted for curation by @zer0Kerbal --<<
-		CHANGE
-		{
-			change = organize for adoption
-			subChange = folder structure
-			subChange = added license(s) file(s)
-			subChange = added .version file
-			subChange = Readme
-			subChange = automated backend
-			subChange = jsons
-			subChange = Changelog.md -> Kerbal Changelog Changelog.cfg
-			subChange = updated Readme.md
-			subChange = moved changelog into separate file
-		}
-	}
-	VERSION
-	{
-		version = 
-		versionName = the pre-adoption party Beta
-		change = Beta Release 09/09/2014
-		change = from original forum post's dropbox link
-	}
-}
+﻿# Changelog  
+  
+| modName    | Foundations (FND)                                                 |
+| ---------- | ----------------------------------------------------------------- |
+| license    | GPL-2.0                                                           |
+| author     | Sparkle, 4x4cheesecake and zer0Kerbal                             |
+| forum      | (https://forum.kerbalspaceprogram.com/index.php?/topic/209463-*/) |
+| github     | (https://github.com/zer0Kerbal/zer0Kerbal/Foundations)            |
+| curseforge | (https://www.curseforge.com/kerbal/ksp-mods/Foundations)          |
+| spacedock  | (https://spacedock.info/mod/3091)                                 |
+| ckan       | Foundations                                                       |
 
-// GPLv2
-// zer0Kerbal
+## Version beta 0.1.3.37
+
+Changes:
+FULL localization implemented
+parts working - with some adjustments
+recompile for .NET 4.7.2 and KSP 1.7.3+
+other additions.
+
+---
+
+## Version 0.1.2.1 - for KSP 1.12.3 [21-Aug-2022]
+
+* #10 - merge into dev branch changes applied directly to master - contributed by zer0Kerbal
+
+## Version 0.1.2.0-beta - for KSP 1.12.3 [29-Aug-2021]
+
+* #1 - Dev - contributed by zer0Kerbal
+
+## Version 0.0.0
+
+* Localization
+  * added .this/Localization/
+  * added localization (en-us.cfg)
+  * adjusted phrasing a smudge
+* moved art into .this/Assets/
+* updated texture pointers in model (original, png, dds included)
+* updated part.cfg:
+* added explosionPotential
+* Changelog, .version, Readme.md
+  * created Changelog.cfg [KERBALCHANGELOG] (.this)
+  * Add license field
+  * Add author node
+  * Add version naming field
+  * added additional fields in .version (might need to tweak urls)
+  * added shields to Readme.md
+* Online
+  * GitHub Repo
+  * created Forum Thread
+  * updated SpaceDock
+  * updated CKAN/NetKAN
+* modernization, polish, update pass on .cfg
+  * large .tga -> .dds ( mb ->  mb)
+  * replaced mesh = with MODEL{}
+  * merged in patches
+  * automated deploy/release process
+  * adjusted nodes (flipped orientation as needed)
+* Adoption by zer0Kerbal
+  * Send Adoption Papers
+  * Post Adoption Notice
+  * gather
+  * verify licenses
+  * look for existing repo/postings
+
+---
+
+## Version - `<Brushing off the Construction Dust>`
+
+* >>-- adopted for curation by @zer0Kerbal --<<
+* organize for adoption
+  * folder structure
+  * added license(s) file(s)
+  * added .version file
+  * Readme
+  * automated backend
+  * jsons
+  * Changelog.md -> Kerbal Changelog Changelog.cfg
+  * updated Readme.md
+  * moved changelog into separate file
+
+---
+
+## Version  - `<the pre-adoption party Beta>` edition
+
+* Beta Release 09/09/2014
+* from original forum post's dropbox link
+
+---
