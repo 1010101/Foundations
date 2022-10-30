@@ -86,8 +86,9 @@ namespace Foundations
         }
 
         /// <summary>Called when the user toggle attachment via the GUI.</summary>
-        //[KSPAction("#FND-Toggle")]
-        [KSPAction("Toggle Foundation")]
+        // [KSPAction("#FND-Toggle")]
+        // [KSPAction("Toggle Foundation")]
+        [KSPAction("#FND_Foundations_1000000")]		// #FND_Foundations_1000000 = Toggle Foundation
         public void ToggleAttachment(KSPActionParam param)
         {
             if (isAttached)
